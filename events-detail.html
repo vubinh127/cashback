@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="main-menu navbar navbar-expand-xl navbar-light justify-content-between align-items-center">
+                <div class="d-flex align-items-center justify-content-between w-100">
+                    <a class="navbar-brand" href="/">
+                        <img src="https://wintechcapital.vn/assets/logo-DtnypJpb.png" alt="" />
+                    </a>
+
+                    <div class="d-flex align-items-center gap-3">
+                      <div class="language-switcher">
+                        <a class="language d-flex align-items-center gap-2" id="en-language" href="https://cashback.exchange/vi">
+                            <img src="https://cashback.exchange/image/EN.png" alt="English Flag">
+                            <span>EN</span>
+                        </a>
+                      </div>
+
+                      <form class="form-enter-id d-none d-lg-flex">
+                        <input type="text" class="input-search" name="your_uid" data-lang="en" placeholder="Enter your UID">
+                        <select name="exchange" id="exchange">
+                            <option value="ref_code">Referral code</option>
+                            <option value="binance">Binance</option>
+                            <option value="bingx">BingX</option>
+                            <option value="bybit">Bybit</option>
+                            <option value="exness">Exness</option>
+                            <option value="xm">XM</option>
+                            <option value="mexc">MEXC</option>
+                            <option value="okx">OKX</option>
+                            <option value="bitget">Bitget</option>
+                            <option value="gate">Gate</option>
+                            <option value="kucoin">Kucoin</option>
+                            <option value="lbank">LBank</option>
+                        </select>
+                        <button class="" id="btn_search_your_uid" type="submit">
+                            <svg fill="#fff" width="20px" height="20px" viewBox="0 0 0.375 0.375" xmlns="http://www.w3.org/2000/svg" id="arrow">
+                                <path d="M0.207 0.057a0.025 0.025 0 0 1 0.035 0l0.113 0.113a0.025 0.025 0 0 1 0 0.035l-0.113 0.113a0.025 0.025 0 0 1 -0.035 -0.035L0.275 0.213H0.038a0.025 0.025 0 0 1 0 -0.05H0.275L0.207 0.093a0.025 0.025 0 0 1 0 -0.035"></path>
+                            </svg>
+                        </button>
+                      </form>
+
+                      <button class="btn_menu">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="16" viewBox="0 0 22 16" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H22V2H0V0ZM0 7H22V9H0V7ZM22 14H0V16H22V14Z" fill="#F4F4F4"/>
+                        </svg>
+                    </button>
+                    </div>
+                </div>
+
+                <div class="menu-custom" id="navbarNav">
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+                    <svg width="20px" height="20px" viewBox="0 0 0.4 0.4" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#fff" fill-rule="evenodd" d="M0.282 0.082a0.025 0.025 0 1 1 0.035 0.035L0.235 0.2l0.082 0.082a0.025 0.025 0 0 1 -0.035 0.035L0.2 0.235l-0.082 0.082a0.025 0.025 0 0 1 -0.035 -0.035L0.165 0.2 0.082 0.118a0.025 0.025 0 0 1 0.035 -0.035L0.2 0.165z"></path>
+                    </svg>
+                  </button>
+                  <ul id="menu-main-menu" class="nav-bar-menu">
+                      <li class="nav-item">
+                          <a class="nav-link" href="/">
+                              Trang chủ
+                          </a>
+                          <!-- <ul class="dropdown-menu" aria-labelledby="brandDropdown">
+                              <li><a class="dropdown-item" href="/brand?section=1">목공의 마음</a></li>
+                              <li><a class="dropdown-item" href="/brand?section=2">목공의 전문성</a></li>
+                              <li><a class="dropdown-item" href="/brand?section=3">온열 목공간</a></li>
+                          </ul> -->
+                      </li>
+
+                      <li class="nav-item has-sub">
+                          <a class="nav-link toggle-sub" href="/mototours/tour.php" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Sự kiện
+                          </a>
+                          <ul class="sub-menu" aria-labelledby="productsDropdown">
+                              <li><a class="dropdown-item" href="/product/list.html?cate_no=130">족욕기</a></li>
+                              <li><a class="dropdown-item" href="/product/list.html?cate_no=131">반신욕기</a></li>
+                              <li><a class="dropdown-item" href="/product/list.html?cate_no=132">홈사우나</a></li>
+                          </ul>
+                      </li>
+
+                      <li class="nav-item">
+                          <a class="nav-link" href="/mototours/about.php">Developers</a>
+                      </li>
+                  </ul>
+                  <form class="form-enter-id d-flex d-lg-none mt-5">
+                        <input type="text" class="input-search" name="your_uid" data-lang="en" placeholder="Enter your UID">
+                        <select name="exchange" id="exchange">
+                            <option value="ref_code">Referral code</option>
+                            <option value="binance">Binance</option>
+                            <option value="bingx">BingX</option>
+                            <option value="bybit">Bybit</option>
+                            <option value="exness">Exness</option>
+                            <option value="xm">XM</option>
+                            <option value="mexc">MEXC</option>
+                            <option value="okx">OKX</option>
+                            <option value="bitget">Bitget</option>
+                            <option value="gate">Gate</option>
+                            <option value="kucoin">Kucoin</option>
+                            <option value="lbank">LBank</option>
+                        </select>
+                        <button class="" id="btn_search_your_uid" type="submit">
+                            <svg fill="#fff" width="20px" height="20px" viewBox="0 0 0.375 0.375" xmlns="http://www.w3.org/2000/svg" id="arrow">
+                                <path d="M0.207 0.057a0.025 0.025 0 0 1 0.035 0l0.113 0.113a0.025 0.025 0 0 1 0 0.035l-0.113 0.113a0.025 0.025 0 0 1 -0.035 -0.035L0.275 0.213H0.038a0.025 0.025 0 0 1 0 -0.05H0.275L0.207 0.093a0.025 0.025 0 0 1 0 -0.035"></path>
+                            </svg>
+                        </button>
+                      </form>
+                </div>
+            </nav>
+            <div class="menu-overlay"></div>
+        </div>
+    </header>
+
+    <main>
+        <section class="block-event-detail py-5">
+            <div class="container">
+                <div class="event-detail-box">
+                    <h1 class="event-detail-title">T1 chính thức vô địch CKTG 2025 sau chiến thắng nghẹt thở trước KT</h1>
+                    <div class="event-detail-date">08-11-2025</div>
+
+                    <div class="event-detail-body mt-4">
+                        Với chiến thắng này, Faker đã lập kỷ lục vô tiền khoáng hậu cùng T1.
+
+                        <img src="https://cdn-img.thethao247.vn/origin_842x0/storage/files/kythanhgaming1/2025/11/09/t1-691086cfdba5c.jpg" alt="">
+
+                        Tối ngày 9/11 (giờ Việt Nam), sân vận động Thành Đô bùng nổ khi T1 chính thức đăng quang ngôi vô địch CKTG 2025, sau khi đánh bại KT Rolster với tỉ số nghẹt thở 3-2 trong trận chung kết toàn Hàn Quốc đầy cảm xúc. Đây là chức vô địch thế giới thứ sáu trong lịch sử đội tuyển huyền thoại, và là lần thứ sáu Faker nâng cúp Summoner’s Cup – một cột mốc lịch sử chưa từng có trong LMHT chuyên nghiệp.
+
+                    </div>
+                </div>
+
+
+                <div class="under-detail mt-5 pt-5 border-top">
+                    <div class="container">
+                        <div class="title-block-small text-start m-3">Sự kiện mới</div>
+
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <a href="/events-detail.html">
+                                    <div class="event-item">
+                                        <div class="event-thumb">
+                                            <img src="https://cdn-img.thethao247.vn/origin_842x0/storage/files/kythanhgaming1/2025/11/09/t1-691086cfdba5c.jpg" alt="">
+                                        </div>
+                                        <div class="event-title">
+                                            🔥 T1 chính thức vô địch CKTG 2025 sau chiến thắng nghẹt thở trước KT
+                                        </div>
+                                        <div class="event-date">08-11-2025</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="/events-detail.html">
+                                    <div class="event-item">
+                                        <div class="event-thumb">
+                                            <img src="https://cdn-img.thethao247.vn/origin_842x0/storage/files/kythanhgaming1/2025/11/09/t1-691086cfdba5c.jpg" alt="">
+                                        </div>
+                                        <div class="event-title">
+                                            🔥 T1 chính thức vô địch CKTG 2025 sau chiến thắng nghẹt thở trước KT
+                                        </div>
+                                        <div class="event-date">08-11-2025</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <a href="/events-detail.html">
+                                    <div class="event-item">
+                                        <div class="event-thumb">
+                                            <img src="https://cdn-img.thethao247.vn/origin_842x0/storage/files/kythanhgaming1/2025/11/09/t1-691086cfdba5c.jpg" alt="">
+                                        </div>
+                                        <div class="event-title">
+                                            🔥 T1 chính thức vô địch CKTG 2025 sau chiến thắng nghẹt thở trước KT
+                                        </div>
+                                        <div class="event-date">08-11-2025</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-logo">
+                <img src="https://wintechcapital.vn/assets/logo-DtnypJpb.png" alt="Wintech Capital Logo" />
+                <p class="brand-name">Wintech Capital</p>
+            </div>
+
+            <div class="footer-column">
+            <h4>Liên hệ</h4>
+            <p>Telegram: <a href="https://t.me/BiCanTho" target="_blank">@BiCanTho</a></p>
+            </div>
+
+            <div class="footer-column">
+            <h4>Địa chỉ</h4>
+            <p>Singapore</p>
+            </div>
+
+            <div class="footer-column">
+            <h4>Mạng xã hội</h4>
+            <ul>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Telegram</a></li>
+                <li><a href="#">Youtube</a></li>
+                <li><a href="#">Facebook</a></li>
+            </ul>
+            </div>
+
+            
+        </div>
+
+        <div class="footer-bottom">
+            © 2025 Wintech Capital. All Rights Reserved.
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="/assets/js/index.js"></script>
+</body>
+</html>

@@ -25,7 +25,7 @@
                         </a>
                       </div>
 
-                      <form class="form-enter-id" id="form_enter_id">
+                      <form class="form-enter-id d-none d-lg-flex">
                         <input type="text" class="input-search" name="your_uid" data-lang="en" placeholder="Enter your UID">
                         <select name="exchange" id="exchange">
                             <option value="ref_code">Referral code</option>
@@ -75,7 +75,7 @@
                       </li>
 
                       <li class="nav-item has-sub">
-                          <a class="nav-link toggle-sub" href="/mototours/tour.php" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a class="nav-link toggle-sub" href="/events.html" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Sự kiện
                           </a>
                           <ul class="sub-menu" aria-labelledby="productsDropdown">
@@ -89,6 +89,28 @@
                           <a class="nav-link" href="/mototours/about.php">Developers</a>
                       </li>
                   </ul>
+                  <form class="form-enter-id d-flex d-lg-none mt-5">
+                        <input type="text" class="input-search" name="your_uid" data-lang="en" placeholder="Enter your UID">
+                        <select name="exchange" id="exchange">
+                            <option value="ref_code">Referral code</option>
+                            <option value="binance">Binance</option>
+                            <option value="bingx">BingX</option>
+                            <option value="bybit">Bybit</option>
+                            <option value="exness">Exness</option>
+                            <option value="xm">XM</option>
+                            <option value="mexc">MEXC</option>
+                            <option value="okx">OKX</option>
+                            <option value="bitget">Bitget</option>
+                            <option value="gate">Gate</option>
+                            <option value="kucoin">Kucoin</option>
+                            <option value="lbank">LBank</option>
+                        </select>
+                        <button class="" id="btn_search_your_uid" type="submit">
+                            <svg fill="#fff" width="20px" height="20px" viewBox="0 0 0.375 0.375" xmlns="http://www.w3.org/2000/svg" id="arrow">
+                                <path d="M0.207 0.057a0.025 0.025 0 0 1 0.035 0l0.113 0.113a0.025 0.025 0 0 1 0 0.035l-0.113 0.113a0.025 0.025 0 0 1 -0.035 -0.035L0.275 0.213H0.038a0.025 0.025 0 0 1 0 -0.05H0.275L0.207 0.093a0.025 0.025 0 0 1 0 -0.035"></path>
+                            </svg>
+                        </button>
+                      </form>
                 </div>
             </nav>
             <div class="menu-overlay"></div>
@@ -120,7 +142,7 @@
                             <div class="exchanges">
                                 <div class="logo">
                                     <img src="https://public.bnbstatic.com/20190405/eb2349c3-b2f8-4a93-a286-8f86a62ea9d8.png" alt="">
-                                    <a href="" class="btn-video">
+                                    <a href="/video.html" class="btn-video">
                                         <img src="https://png.pngtree.com/png-clipart/20221018/ourmid/pngtree-youtube-social-media-3d-stereo-png-image_6308427.png" alt="">
                                         Tutorial Video
                                     </a>
@@ -1541,8 +1563,8 @@
                         </div>
                     </div>
 
-                    <div class="service-result d-flex flex-column flex-lg-row align-items-center justify-content-between">
-                        <div class="result-item">
+                    <div class="service-result d-flex align-items-center justify-content-between">
+                        <div class="result-item d-flex flex-column flex-lg-row">
                             <div class="item-img">
                                 <img src="/assets/img/user.png" alt="">
                             </div>
@@ -1551,7 +1573,7 @@
                                 <div class="content">Users</div>
                             </div>
                         </div>
-                        <div class="result-item">
+                        <div class="result-item d-flex flex-column flex-lg-row">
                             <div class="item-img">
                                 <img src="/assets/img/location.png" alt="">
                             </div>
@@ -1560,7 +1582,7 @@
                                 <div class="content">Countries</div>
                             </div>
                         </div>
-                        <div class="result-item">
+                        <div class="result-item d-flex flex-column flex-lg-row">
                             <div class="item-img">
                                 <img src="assets/img/Server.png" alt="">
                             </div>
@@ -1709,7 +1731,41 @@
         
     </main>
 
-    <footer></footer>
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-logo">
+                <img src="https://wintechcapital.vn/assets/logo-DtnypJpb.png" alt="Wintech Capital Logo" />
+                <p class="brand-name">Wintech Capital</p>
+            </div>
+
+            <div class="footer-column">
+            <h4>Liên hệ</h4>
+            <p>Telegram: <a href="https://t.me/BiCanTho" target="_blank">@BiCanTho</a></p>
+            </div>
+
+            <div class="footer-column">
+            <h4>Địa chỉ</h4>
+            <p>Singapore</p>
+            </div>
+
+            <div class="footer-column">
+            <h4>Mạng xã hội</h4>
+            <ul>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Telegram</a></li>
+                <li><a href="#">Youtube</a></li>
+                <li><a href="#">Facebook</a></li>
+            </ul>
+            </div>
+
+            
+        </div>
+
+        <div class="footer-bottom">
+            © 2025 Wintech Capital. All Rights Reserved.
+        </div>
+    </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
