@@ -40,6 +40,11 @@ header .navbar-brand {
     max-width: 250px;
 }
 
+header .navbar-brand img {
+     max-height: 55px;
+    max-width: 250px;
+}
+
 header .navbar-light .navbar-nav .nav-link {
     color: #fff;
 }
