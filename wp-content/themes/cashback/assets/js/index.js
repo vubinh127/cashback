@@ -1,22 +1,15 @@
 $(document).ready(function () {
     const $menu = $(".menu-custom");
-    const $overlay = $(".menu-overlay");
     const $btn_close = $(".btn-close");
 
     $(".btn_menu").on("click", function () {
         $menu.toggleClass("active");
-        $overlay.toggleClass("active");
     });
 
     $btn_close.on("click", function () {
         $menu.removeClass("active");
-        $overlay.removeClass("active");
     });
 
-    $overlay.on("click", function () {
-        $menu.removeClass("active");
-        $overlay.removeClass("active");
-    });
 
     $(".nav-item.has-sub").each(function () {
         if ($(this).find(".sub-menu").length > 0) {
@@ -48,20 +41,6 @@ $(document).ready(function () {
         });
     });
 
-    const $tableWrapper = $(".block-refund .table-wrapper");
-    const $tableBody = $("#scrolling-body");
-    const rowHeight = $tableBody.find("tr").first().outerHeight();
-    let scrollPosition = 0;
-
-    setInterval(() => {
-        scrollPosition += rowHeight;
-
-        if (scrollPosition >= $tableBody.height() - $tableWrapper.height()) {
-            scrollPosition = 0;
-        }
-
-        $tableWrapper.animate({ scrollTop: scrollPosition }, 800); // mượt hơn
-    }, 3000);
 
     const swiper = new Swiper(".swiper", {
         loop: true,
@@ -89,5 +68,22 @@ $(document).ready(function () {
     $modal.on("hidden.bs.modal", function () {
         $iframe.attr("src", "");
         $iframe.attr("src", originalSrc);
+    });
+
+
+    $('.banner-video .banner-image').on('click', function () {
+        const wrapper = $(this).closest('.banner-video');
+        const iframe = wrapper.find('iframe')[0];
+
+        wrapper.addClass('playing');
+
+        iframe.contentWindow.postMessage(
+            JSON.stringify({
+                event: "command",
+                func: "playVideo",
+                args: []
+            }),
+            "*"
+        );
     });
 });
