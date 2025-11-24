@@ -1678,3 +1678,12 @@ footer .footer-bottom .socials-wrapper ul li.youtube a {
     opacity: 0.4;
     cursor: not-allowed;
 }
+
+.block-refferal-id {
+    padding: 100px 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: 0;
+}
