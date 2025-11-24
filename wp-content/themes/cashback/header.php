@@ -76,17 +76,12 @@
             </nav>
             <div class="menu-overlay">
                 <div class="menu-custom menu-sp" id="navbarNav">
-                
+<!--                 
                     <ul id="menu-main-menu" class="nav-bar-menu">
                         <li class="nav-item">
                             <a class="nav-link" href="/">
                                 Trang chủ
                             </a>
-                            <!-- <ul class="dropdown-menu" aria-labelledby="brandDropdown">
-                              <li><a class="dropdown-item" href="/brand?section=1">목공의 마음</a></li>
-                              <li><a class="dropdown-item" href="/brand?section=2">목공의 전문성</a></li>
-                              <li><a class="dropdown-item" href="/brand?section=3">온열 목공간</a></li>
-                          </ul> -->
                         </li>
 
                         <li class="nav-item has-sub">
@@ -111,9 +106,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="/mototours/about.php">Tin tức</a>
                         </li>
-                    </ul>
-
-                     <div class="contact-button d-block d-lg-none">
+                    </ul> -->
+                    <?php cashback_menu('main-menu') ?>
+                    <div class="contact-button d-block d-lg-none">
                             <a href="https://backcom.com/lien-he/">Liên hệ</a>
                     </div>
                 </div>
