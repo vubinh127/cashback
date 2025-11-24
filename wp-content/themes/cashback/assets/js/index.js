@@ -35,28 +35,52 @@ $(document).ready(function () {
     $(document).on("click", ".copy-btn", function () {
         const $value = $(this).closest(".value");
         const textToCopy = $value.clone().children(".copy-btn").remove().end().text().trim();
+        const $tooltip = $(this).find(".tooltip-copy");
 
         navigator.clipboard.writeText(textToCopy).then(() => {
-            $(this).addClass("copied");
+            $tooltip.addClass("show");
+
+            setTimeout(() => {
+                $tooltip.removeClass("show");
+            }, 1500)
         });
     });
 
+    $(document).on("click", "a.copy", function (e) {
+    e.preventDefault();
 
-    const swiper = new Swiper(".swiper", {
+    const parent = $(this).closest(".value");
+    const code = parent.find("input[type='hidden']").val(); 
+
+    navigator.clipboard.writeText(code).then(() => {
+        const $tooltip = $(this).find("span");
+
+        $(this).addClass("copied");
+        $tooltip.addClass("show");
+
+        // Ẩn tooltip sau 1.5s
+        setTimeout(() => {
+            $(this).removeClass("copied");
+        }, 1500);
+    });
+});
+
+
+    const swiper = new Swiper(".testimonials-slide", {
         loop: true,
         navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
         },
         slidesPerView: 1,
+        centeredSlides: true,
+        spaceBetween: 30,
         breakpoints: {
             768: {
-                slidesPerView: 3,
                 spaceBetween: 20,
             },
             1024: {
-                slidesPerView: 4,
-                spaceBetween: 20,
+                slidesPerView: "auto",
             },
         },
     });

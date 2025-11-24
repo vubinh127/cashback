@@ -111,17 +111,12 @@ get_header();
                                         <div class="value d-flex align-items-center gap-2">
                                             Q2FSX523
                                             <div class="copy-btn">
-                                                <svg width="30px" height="30px" viewBox="0 0 0.9 0.9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <g id="style=linear">
-                                                        <g id="copy">
-                                                            <path id="rec" d="M0.669 0.675C0.755 0.675 0.825 0.604 0.825 0.516v-0.319C0.825 0.109 0.755 0.037 0.669 0.037h-0.25C0.332 0.037 0.263 0.109 0.263 0.197" stroke="#fff" stroke-width="0.056249999999999994" stroke-linecap="round"></path>
-                                                            <path id="rec_2" d="M0.075 0.384C0.075 0.296 0.145 0.225 0.231 0.225h0.25C0.568 0.225 0.637 0.296 0.637 0.384v0.319c0 0.088 -0.07 0.159 -0.156 0.159H0.231C0.145 0.862 0.075 0.791 0.075 0.703z" stroke="#fff" stroke-width="0.056249999999999994"></path>
-                                                        </g>
-                                                    </g>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                                 </svg>
-                                                <svg class="tick" fill="#fff" width="20px" height="20px" viewBox="0 0 0.6 0.6" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M0.424 0.156a0.05 0.05 0 0 0 -0.068 0.019l-0.093 0.167 -0.053 -0.053a0.05 0.05 0 1 0 -0.071 0.071l0.1 0.1c0.009 0.009 0.022 0.015 0.035 0.015l0.007 -0.001a0.05 0.05 0 0 0 0.037 -0.025l0.125 -0.225a0.05 0.05 0 0 0 -0.019 -0.068"></path>
-                                                </svg>
+
+                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
                                             </div>
                                         </div>
                                     </div>
@@ -152,17 +147,12 @@ get_header();
                                         <div class="value d-flex align-items-center gap-2">
                                             Q2FSX523
                                             <div class="copy-btn">
-                                                <svg width="30px" height="30px" viewBox="0 0 0.9 0.9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <g id="style=linear">
-                                                        <g id="copy">
-                                                            <path id="rec" d="M0.669 0.675C0.755 0.675 0.825 0.604 0.825 0.516v-0.319C0.825 0.109 0.755 0.037 0.669 0.037h-0.25C0.332 0.037 0.263 0.109 0.263 0.197" stroke="#fff" stroke-width="0.056249999999999994" stroke-linecap="round"></path>
-                                                            <path id="rec_2" d="M0.075 0.384C0.075 0.296 0.145 0.225 0.231 0.225h0.25C0.568 0.225 0.637 0.296 0.637 0.384v0.319c0 0.088 -0.07 0.159 -0.156 0.159H0.231C0.145 0.862 0.075 0.791 0.075 0.703z" stroke="#fff" stroke-width="0.056249999999999994"></path>
-                                                        </g>
-                                                    </g>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                                 </svg>
-                                                <svg class="tick" fill="#fff" width="20px" height="20px" viewBox="0 0 0.6 0.6" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M0.424 0.156a0.05 0.05 0 0 0 -0.068 0.019l-0.093 0.167 -0.053 -0.053a0.05 0.05 0 1 0 -0.071 0.071l0.1 0.1c0.009 0.009 0.022 0.015 0.035 0.015l0.007 -0.001a0.05 0.05 0 0 0 0.037 -0.025l0.125 -0.225a0.05 0.05 0 0 0 -0.019 -0.068"></path>
-                                                </svg>
+
+                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
                                             </div>
                                         </div>
                                     </div>
@@ -193,17 +183,12 @@ get_header();
                                         <div class="value d-flex align-items-center gap-2">
                                             Q2FSX523
                                             <div class="copy-btn">
-                                                <svg width="30px" height="30px" viewBox="0 0 0.9 0.9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <g id="style=linear">
-                                                        <g id="copy">
-                                                            <path id="rec" d="M0.669 0.675C0.755 0.675 0.825 0.604 0.825 0.516v-0.319C0.825 0.109 0.755 0.037 0.669 0.037h-0.25C0.332 0.037 0.263 0.109 0.263 0.197" stroke="#fff" stroke-width="0.056249999999999994" stroke-linecap="round"></path>
-                                                            <path id="rec_2" d="M0.075 0.384C0.075 0.296 0.145 0.225 0.231 0.225h0.25C0.568 0.225 0.637 0.296 0.637 0.384v0.319c0 0.088 -0.07 0.159 -0.156 0.159H0.231C0.145 0.862 0.075 0.791 0.075 0.703z" stroke="#fff" stroke-width="0.056249999999999994"></path>
-                                                        </g>
-                                                    </g>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                                 </svg>
-                                                <svg class="tick" fill="#fff" width="20px" height="20px" viewBox="0 0 0.6 0.6" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M0.424 0.156a0.05 0.05 0 0 0 -0.068 0.019l-0.093 0.167 -0.053 -0.053a0.05 0.05 0 1 0 -0.071 0.071l0.1 0.1c0.009 0.009 0.022 0.015 0.035 0.015l0.007 -0.001a0.05 0.05 0 0 0 0.037 -0.025l0.125 -0.225a0.05 0.05 0 0 0 -0.019 -0.068"></path>
-                                                </svg>
+
+                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
                                             </div>
                                         </div>
                                     </div>
@@ -234,17 +219,12 @@ get_header();
                                         <div class="value d-flex align-items-center gap-2">
                                             Q2FSX523
                                             <div class="copy-btn">
-                                                <svg width="30px" height="30px" viewBox="0 0 0.9 0.9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <g id="style=linear">
-                                                        <g id="copy">
-                                                            <path id="rec" d="M0.669 0.675C0.755 0.675 0.825 0.604 0.825 0.516v-0.319C0.825 0.109 0.755 0.037 0.669 0.037h-0.25C0.332 0.037 0.263 0.109 0.263 0.197" stroke="#fff" stroke-width="0.056249999999999994" stroke-linecap="round"></path>
-                                                            <path id="rec_2" d="M0.075 0.384C0.075 0.296 0.145 0.225 0.231 0.225h0.25C0.568 0.225 0.637 0.296 0.637 0.384v0.319c0 0.088 -0.07 0.159 -0.156 0.159H0.231C0.145 0.862 0.075 0.791 0.075 0.703z" stroke="#fff" stroke-width="0.056249999999999994"></path>
-                                                        </g>
-                                                    </g>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                                 </svg>
-                                                <svg class="tick" fill="#fff" width="20px" height="20px" viewBox="0 0 0.6 0.6" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M0.424 0.156a0.05 0.05 0 0 0 -0.068 0.019l-0.093 0.167 -0.053 -0.053a0.05 0.05 0 1 0 -0.071 0.071l0.1 0.1c0.009 0.009 0.022 0.015 0.035 0.015l0.007 -0.001a0.05 0.05 0 0 0 0.037 -0.025l0.125 -0.225a0.05 0.05 0 0 0 -0.019 -0.068"></path>
-                                                </svg>
+
+                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
                                             </div>
                                         </div>
                                     </div>
@@ -275,17 +255,12 @@ get_header();
                                         <div class="value d-flex align-items-center gap-2">
                                             Q2FSX523
                                             <div class="copy-btn">
-                                                <svg width="30px" height="30px" viewBox="0 0 0.9 0.9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <g id="style=linear">
-                                                        <g id="copy">
-                                                            <path id="rec" d="M0.669 0.675C0.755 0.675 0.825 0.604 0.825 0.516v-0.319C0.825 0.109 0.755 0.037 0.669 0.037h-0.25C0.332 0.037 0.263 0.109 0.263 0.197" stroke="#fff" stroke-width="0.056249999999999994" stroke-linecap="round"></path>
-                                                            <path id="rec_2" d="M0.075 0.384C0.075 0.296 0.145 0.225 0.231 0.225h0.25C0.568 0.225 0.637 0.296 0.637 0.384v0.319c0 0.088 -0.07 0.159 -0.156 0.159H0.231C0.145 0.862 0.075 0.791 0.075 0.703z" stroke="#fff" stroke-width="0.056249999999999994"></path>
-                                                        </g>
-                                                    </g>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                                 </svg>
-                                                <svg class="tick" fill="#fff" width="20px" height="20px" viewBox="0 0 0.6 0.6" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M0.424 0.156a0.05 0.05 0 0 0 -0.068 0.019l-0.093 0.167 -0.053 -0.053a0.05 0.05 0 1 0 -0.071 0.071l0.1 0.1c0.009 0.009 0.022 0.015 0.035 0.015l0.007 -0.001a0.05 0.05 0 0 0 0.037 -0.025l0.125 -0.225a0.05 0.05 0 0 0 -0.019 -0.068"></path>
-                                                </svg>
+
+                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
                                             </div>
                                         </div>
                                     </div>
@@ -316,17 +291,12 @@ get_header();
                                         <div class="value d-flex align-items-center gap-2">
                                             Q2FSX523
                                             <div class="copy-btn">
-                                                <svg width="30px" height="30px" viewBox="0 0 0.9 0.9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <g id="style=linear">
-                                                        <g id="copy">
-                                                            <path id="rec" d="M0.669 0.675C0.755 0.675 0.825 0.604 0.825 0.516v-0.319C0.825 0.109 0.755 0.037 0.669 0.037h-0.25C0.332 0.037 0.263 0.109 0.263 0.197" stroke="#fff" stroke-width="0.056249999999999994" stroke-linecap="round"></path>
-                                                            <path id="rec_2" d="M0.075 0.384C0.075 0.296 0.145 0.225 0.231 0.225h0.25C0.568 0.225 0.637 0.296 0.637 0.384v0.319c0 0.088 -0.07 0.159 -0.156 0.159H0.231C0.145 0.862 0.075 0.791 0.075 0.703z" stroke="#fff" stroke-width="0.056249999999999994"></path>
-                                                        </g>
-                                                    </g>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                                 </svg>
-                                                <svg class="tick" fill="#fff" width="20px" height="20px" viewBox="0 0 0.6 0.6" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M0.424 0.156a0.05 0.05 0 0 0 -0.068 0.019l-0.093 0.167 -0.053 -0.053a0.05 0.05 0 1 0 -0.071 0.071l0.1 0.1c0.009 0.009 0.022 0.015 0.035 0.015l0.007 -0.001a0.05 0.05 0 0 0 0.037 -0.025l0.125 -0.225a0.05 0.05 0 0 0 -0.019 -0.068"></path>
-                                                </svg>
+
+                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
                                             </div>
                                         </div>
                                     </div>
@@ -357,17 +327,12 @@ get_header();
                                         <div class="value d-flex align-items-center gap-2">
                                             Q2FSX523
                                             <div class="copy-btn">
-                                                <svg width="30px" height="30px" viewBox="0 0 0.9 0.9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <g id="style=linear">
-                                                        <g id="copy">
-                                                            <path id="rec" d="M0.669 0.675C0.755 0.675 0.825 0.604 0.825 0.516v-0.319C0.825 0.109 0.755 0.037 0.669 0.037h-0.25C0.332 0.037 0.263 0.109 0.263 0.197" stroke="#fff" stroke-width="0.056249999999999994" stroke-linecap="round"></path>
-                                                            <path id="rec_2" d="M0.075 0.384C0.075 0.296 0.145 0.225 0.231 0.225h0.25C0.568 0.225 0.637 0.296 0.637 0.384v0.319c0 0.088 -0.07 0.159 -0.156 0.159H0.231C0.145 0.862 0.075 0.791 0.075 0.703z" stroke="#fff" stroke-width="0.056249999999999994"></path>
-                                                        </g>
-                                                    </g>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                                 </svg>
-                                                <svg class="tick" fill="#fff" width="20px" height="20px" viewBox="0 0 0.6 0.6" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M0.424 0.156a0.05 0.05 0 0 0 -0.068 0.019l-0.093 0.167 -0.053 -0.053a0.05 0.05 0 1 0 -0.071 0.071l0.1 0.1c0.009 0.009 0.022 0.015 0.035 0.015l0.007 -0.001a0.05 0.05 0 0 0 0.037 -0.025l0.125 -0.225a0.05 0.05 0 0 0 -0.019 -0.068"></path>
-                                                </svg>
+
+                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
                                             </div>
                                         </div>
                                     </div>
@@ -401,17 +366,12 @@ get_header();
                                         <div class="value d-flex align-items-center gap-2">
                                             Q2FSX523
                                             <div class="copy-btn">
-                                                <svg width="30px" height="30px" viewBox="0 0 0.9 0.9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <g id="style=linear">
-                                                        <g id="copy">
-                                                            <path id="rec" d="M0.669 0.675C0.755 0.675 0.825 0.604 0.825 0.516v-0.319C0.825 0.109 0.755 0.037 0.669 0.037h-0.25C0.332 0.037 0.263 0.109 0.263 0.197" stroke="#fff" stroke-width="0.056249999999999994" stroke-linecap="round"></path>
-                                                            <path id="rec_2" d="M0.075 0.384C0.075 0.296 0.145 0.225 0.231 0.225h0.25C0.568 0.225 0.637 0.296 0.637 0.384v0.319c0 0.088 -0.07 0.159 -0.156 0.159H0.231C0.145 0.862 0.075 0.791 0.075 0.703z" stroke="#fff" stroke-width="0.056249999999999994"></path>
-                                                        </g>
-                                                    </g>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                                 </svg>
-                                                <svg class="tick" fill="#fff" width="20px" height="20px" viewBox="0 0 0.6 0.6" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M0.424 0.156a0.05 0.05 0 0 0 -0.068 0.019l-0.093 0.167 -0.053 -0.053a0.05 0.05 0 1 0 -0.071 0.071l0.1 0.1c0.009 0.009 0.022 0.015 0.035 0.015l0.007 -0.001a0.05 0.05 0 0 0 0.037 -0.025l0.125 -0.225a0.05 0.05 0 0 0 -0.019 -0.068"></path>
-                                                </svg>
+
+                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
                                             </div>
                                         </div>
                                     </div>
@@ -442,17 +402,12 @@ get_header();
                                         <div class="value d-flex align-items-center gap-2">
                                             Q2FSX523
                                             <div class="copy-btn">
-                                                <svg width="30px" height="30px" viewBox="0 0 0.9 0.9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <g id="style=linear">
-                                                        <g id="copy">
-                                                            <path id="rec" d="M0.669 0.675C0.755 0.675 0.825 0.604 0.825 0.516v-0.319C0.825 0.109 0.755 0.037 0.669 0.037h-0.25C0.332 0.037 0.263 0.109 0.263 0.197" stroke="#fff" stroke-width="0.056249999999999994" stroke-linecap="round"></path>
-                                                            <path id="rec_2" d="M0.075 0.384C0.075 0.296 0.145 0.225 0.231 0.225h0.25C0.568 0.225 0.637 0.296 0.637 0.384v0.319c0 0.088 -0.07 0.159 -0.156 0.159H0.231C0.145 0.862 0.075 0.791 0.075 0.703z" stroke="#fff" stroke-width="0.056249999999999994"></path>
-                                                        </g>
-                                                    </g>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                                 </svg>
-                                                <svg class="tick" fill="#fff" width="20px" height="20px" viewBox="0 0 0.6 0.6" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M0.424 0.156a0.05 0.05 0 0 0 -0.068 0.019l-0.093 0.167 -0.053 -0.053a0.05 0.05 0 1 0 -0.071 0.071l0.1 0.1c0.009 0.009 0.022 0.015 0.035 0.015l0.007 -0.001a0.05 0.05 0 0 0 0.037 -0.025l0.125 -0.225a0.05 0.05 0 0 0 -0.019 -0.068"></path>
-                                                </svg>
+
+                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
                                             </div>
                                         </div>
                                     </div>
@@ -483,17 +438,12 @@ get_header();
                                         <div class="value d-flex align-items-center gap-2">
                                             Q2FSX523
                                             <div class="copy-btn">
-                                                <svg width="30px" height="30px" viewBox="0 0 0.9 0.9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <g id="style=linear">
-                                                        <g id="copy">
-                                                            <path id="rec" d="M0.669 0.675C0.755 0.675 0.825 0.604 0.825 0.516v-0.319C0.825 0.109 0.755 0.037 0.669 0.037h-0.25C0.332 0.037 0.263 0.109 0.263 0.197" stroke="#fff" stroke-width="0.056249999999999994" stroke-linecap="round"></path>
-                                                            <path id="rec_2" d="M0.075 0.384C0.075 0.296 0.145 0.225 0.231 0.225h0.25C0.568 0.225 0.637 0.296 0.637 0.384v0.319c0 0.088 -0.07 0.159 -0.156 0.159H0.231C0.145 0.862 0.075 0.791 0.075 0.703z" stroke="#fff" stroke-width="0.056249999999999994"></path>
-                                                        </g>
-                                                    </g>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                                 </svg>
-                                                <svg class="tick" fill="#fff" width="20px" height="20px" viewBox="0 0 0.6 0.6" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M0.424 0.156a0.05 0.05 0 0 0 -0.068 0.019l-0.093 0.167 -0.053 -0.053a0.05 0.05 0 1 0 -0.071 0.071l0.1 0.1c0.009 0.009 0.022 0.015 0.035 0.015l0.007 -0.001a0.05 0.05 0 0 0 0.037 -0.025l0.125 -0.225a0.05 0.05 0 0 0 -0.019 -0.068"></path>
-                                                </svg>
+
+                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
                                             </div>
                                         </div>
                                     </div>
@@ -524,17 +474,12 @@ get_header();
                                         <div class="value d-flex align-items-center gap-2">
                                             Q2FSX523
                                             <div class="copy-btn">
-                                                <svg width="30px" height="30px" viewBox="0 0 0.9 0.9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <g id="style=linear">
-                                                        <g id="copy">
-                                                            <path id="rec" d="M0.669 0.675C0.755 0.675 0.825 0.604 0.825 0.516v-0.319C0.825 0.109 0.755 0.037 0.669 0.037h-0.25C0.332 0.037 0.263 0.109 0.263 0.197" stroke="#fff" stroke-width="0.056249999999999994" stroke-linecap="round"></path>
-                                                            <path id="rec_2" d="M0.075 0.384C0.075 0.296 0.145 0.225 0.231 0.225h0.25C0.568 0.225 0.637 0.296 0.637 0.384v0.319c0 0.088 -0.07 0.159 -0.156 0.159H0.231C0.145 0.862 0.075 0.791 0.075 0.703z" stroke="#fff" stroke-width="0.056249999999999994"></path>
-                                                        </g>
-                                                    </g>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                                 </svg>
-                                                <svg class="tick" fill="#fff" width="20px" height="20px" viewBox="0 0 0.6 0.6" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M0.424 0.156a0.05 0.05 0 0 0 -0.068 0.019l-0.093 0.167 -0.053 -0.053a0.05 0.05 0 1 0 -0.071 0.071l0.1 0.1c0.009 0.009 0.022 0.015 0.035 0.015l0.007 -0.001a0.05 0.05 0 0 0 0.037 -0.025l0.125 -0.225a0.05 0.05 0 0 0 -0.019 -0.068"></path>
-                                                </svg>
+
+                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
                                             </div>
                                         </div>
                                     </div>
@@ -565,17 +510,12 @@ get_header();
                                         <div class="value d-flex align-items-center gap-2">
                                             Q2FSX523
                                             <div class="copy-btn">
-                                                <svg width="30px" height="30px" viewBox="0 0 0.9 0.9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <g id="style=linear">
-                                                        <g id="copy">
-                                                            <path id="rec" d="M0.669 0.675C0.755 0.675 0.825 0.604 0.825 0.516v-0.319C0.825 0.109 0.755 0.037 0.669 0.037h-0.25C0.332 0.037 0.263 0.109 0.263 0.197" stroke="#fff" stroke-width="0.056249999999999994" stroke-linecap="round"></path>
-                                                            <path id="rec_2" d="M0.075 0.384C0.075 0.296 0.145 0.225 0.231 0.225h0.25C0.568 0.225 0.637 0.296 0.637 0.384v0.319c0 0.088 -0.07 0.159 -0.156 0.159H0.231C0.145 0.862 0.075 0.791 0.075 0.703z" stroke="#fff" stroke-width="0.056249999999999994"></path>
-                                                        </g>
-                                                    </g>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                                 </svg>
-                                                <svg class="tick" fill="#fff" width="20px" height="20px" viewBox="0 0 0.6 0.6" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M0.424 0.156a0.05 0.05 0 0 0 -0.068 0.019l-0.093 0.167 -0.053 -0.053a0.05 0.05 0 1 0 -0.071 0.071l0.1 0.1c0.009 0.009 0.022 0.015 0.035 0.015l0.007 -0.001a0.05 0.05 0 0 0 0.037 -0.025l0.125 -0.225a0.05 0.05 0 0 0 -0.019 -0.068"></path>
-                                                </svg>
+
+                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
                                             </div>
                                         </div>
                                     </div>
@@ -606,17 +546,12 @@ get_header();
                                         <div class="value d-flex align-items-center gap-2">
                                             Q2FSX523
                                             <div class="copy-btn">
-                                                <svg width="30px" height="30px" viewBox="0 0 0.9 0.9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <g id="style=linear">
-                                                        <g id="copy">
-                                                            <path id="rec" d="M0.669 0.675C0.755 0.675 0.825 0.604 0.825 0.516v-0.319C0.825 0.109 0.755 0.037 0.669 0.037h-0.25C0.332 0.037 0.263 0.109 0.263 0.197" stroke="#fff" stroke-width="0.056249999999999994" stroke-linecap="round"></path>
-                                                            <path id="rec_2" d="M0.075 0.384C0.075 0.296 0.145 0.225 0.231 0.225h0.25C0.568 0.225 0.637 0.296 0.637 0.384v0.319c0 0.088 -0.07 0.159 -0.156 0.159H0.231C0.145 0.862 0.075 0.791 0.075 0.703z" stroke="#fff" stroke-width="0.056249999999999994"></path>
-                                                        </g>
-                                                    </g>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                                 </svg>
-                                                <svg class="tick" fill="#fff" width="20px" height="20px" viewBox="0 0 0.6 0.6" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M0.424 0.156a0.05 0.05 0 0 0 -0.068 0.019l-0.093 0.167 -0.053 -0.053a0.05 0.05 0 1 0 -0.071 0.071l0.1 0.1c0.009 0.009 0.022 0.015 0.035 0.015l0.007 -0.001a0.05 0.05 0 0 0 0.037 -0.025l0.125 -0.225a0.05 0.05 0 0 0 -0.019 -0.068"></path>
-                                                </svg>
+
+                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
                                             </div>
                                         </div>
                                     </div>
@@ -647,17 +582,12 @@ get_header();
                                         <div class="value d-flex align-items-center gap-2">
                                             Q2FSX523
                                             <div class="copy-btn">
-                                                <svg width="30px" height="30px" viewBox="0 0 0.9 0.9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <g id="style=linear">
-                                                        <g id="copy">
-                                                            <path id="rec" d="M0.669 0.675C0.755 0.675 0.825 0.604 0.825 0.516v-0.319C0.825 0.109 0.755 0.037 0.669 0.037h-0.25C0.332 0.037 0.263 0.109 0.263 0.197" stroke="#fff" stroke-width="0.056249999999999994" stroke-linecap="round"></path>
-                                                            <path id="rec_2" d="M0.075 0.384C0.075 0.296 0.145 0.225 0.231 0.225h0.25C0.568 0.225 0.637 0.296 0.637 0.384v0.319c0 0.088 -0.07 0.159 -0.156 0.159H0.231C0.145 0.862 0.075 0.791 0.075 0.703z" stroke="#fff" stroke-width="0.056249999999999994"></path>
-                                                        </g>
-                                                    </g>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                                 </svg>
-                                                <svg class="tick" fill="#fff" width="20px" height="20px" viewBox="0 0 0.6 0.6" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M0.424 0.156a0.05 0.05 0 0 0 -0.068 0.019l-0.093 0.167 -0.053 -0.053a0.05 0.05 0 1 0 -0.071 0.071l0.1 0.1c0.009 0.009 0.022 0.015 0.035 0.015l0.007 -0.001a0.05 0.05 0 0 0 0.037 -0.025l0.125 -0.225a0.05 0.05 0 0 0 -0.019 -0.068"></path>
-                                                </svg>
+
+                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
                                             </div>
                                         </div>
                                     </div>
@@ -691,17 +621,12 @@ get_header();
                                         <div class="value d-flex align-items-center gap-2">
                                             Q2FSX523
                                             <div class="copy-btn">
-                                                <svg width="30px" height="30px" viewBox="0 0 0.9 0.9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <g id="style=linear">
-                                                        <g id="copy">
-                                                            <path id="rec" d="M0.669 0.675C0.755 0.675 0.825 0.604 0.825 0.516v-0.319C0.825 0.109 0.755 0.037 0.669 0.037h-0.25C0.332 0.037 0.263 0.109 0.263 0.197" stroke="#fff" stroke-width="0.056249999999999994" stroke-linecap="round"></path>
-                                                            <path id="rec_2" d="M0.075 0.384C0.075 0.296 0.145 0.225 0.231 0.225h0.25C0.568 0.225 0.637 0.296 0.637 0.384v0.319c0 0.088 -0.07 0.159 -0.156 0.159H0.231C0.145 0.862 0.075 0.791 0.075 0.703z" stroke="#fff" stroke-width="0.056249999999999994"></path>
-                                                        </g>
-                                                    </g>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                                 </svg>
-                                                <svg class="tick" fill="#fff" width="20px" height="20px" viewBox="0 0 0.6 0.6" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M0.424 0.156a0.05 0.05 0 0 0 -0.068 0.019l-0.093 0.167 -0.053 -0.053a0.05 0.05 0 1 0 -0.071 0.071l0.1 0.1c0.009 0.009 0.022 0.015 0.035 0.015l0.007 -0.001a0.05 0.05 0 0 0 0.037 -0.025l0.125 -0.225a0.05 0.05 0 0 0 -0.019 -0.068"></path>
-                                                </svg>
+
+                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
                                             </div>
                                         </div>
                                     </div>
@@ -732,17 +657,12 @@ get_header();
                                         <div class="value d-flex align-items-center gap-2">
                                             Q2FSX523
                                             <div class="copy-btn">
-                                                <svg width="30px" height="30px" viewBox="0 0 0.9 0.9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <g id="style=linear">
-                                                        <g id="copy">
-                                                            <path id="rec" d="M0.669 0.675C0.755 0.675 0.825 0.604 0.825 0.516v-0.319C0.825 0.109 0.755 0.037 0.669 0.037h-0.25C0.332 0.037 0.263 0.109 0.263 0.197" stroke="#fff" stroke-width="0.056249999999999994" stroke-linecap="round"></path>
-                                                            <path id="rec_2" d="M0.075 0.384C0.075 0.296 0.145 0.225 0.231 0.225h0.25C0.568 0.225 0.637 0.296 0.637 0.384v0.319c0 0.088 -0.07 0.159 -0.156 0.159H0.231C0.145 0.862 0.075 0.791 0.075 0.703z" stroke="#fff" stroke-width="0.056249999999999994"></path>
-                                                        </g>
-                                                    </g>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                                 </svg>
-                                                <svg class="tick" fill="#fff" width="20px" height="20px" viewBox="0 0 0.6 0.6" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M0.424 0.156a0.05 0.05 0 0 0 -0.068 0.019l-0.093 0.167 -0.053 -0.053a0.05 0.05 0 1 0 -0.071 0.071l0.1 0.1c0.009 0.009 0.022 0.015 0.035 0.015l0.007 -0.001a0.05 0.05 0 0 0 0.037 -0.025l0.125 -0.225a0.05 0.05 0 0 0 -0.019 -0.068"></path>
-                                                </svg>
+
+                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
                                             </div>
                                         </div>
                                     </div>
@@ -773,17 +693,12 @@ get_header();
                                         <div class="value d-flex align-items-center gap-2">
                                             Q2FSX523
                                             <div class="copy-btn">
-                                                <svg width="30px" height="30px" viewBox="0 0 0.9 0.9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <g id="style=linear">
-                                                        <g id="copy">
-                                                            <path id="rec" d="M0.669 0.675C0.755 0.675 0.825 0.604 0.825 0.516v-0.319C0.825 0.109 0.755 0.037 0.669 0.037h-0.25C0.332 0.037 0.263 0.109 0.263 0.197" stroke="#fff" stroke-width="0.056249999999999994" stroke-linecap="round"></path>
-                                                            <path id="rec_2" d="M0.075 0.384C0.075 0.296 0.145 0.225 0.231 0.225h0.25C0.568 0.225 0.637 0.296 0.637 0.384v0.319c0 0.088 -0.07 0.159 -0.156 0.159H0.231C0.145 0.862 0.075 0.791 0.075 0.703z" stroke="#fff" stroke-width="0.056249999999999994"></path>
-                                                        </g>
-                                                    </g>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                                 </svg>
-                                                <svg class="tick" fill="#fff" width="20px" height="20px" viewBox="0 0 0.6 0.6" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M0.424 0.156a0.05 0.05 0 0 0 -0.068 0.019l-0.093 0.167 -0.053 -0.053a0.05 0.05 0 1 0 -0.071 0.071l0.1 0.1c0.009 0.009 0.022 0.015 0.035 0.015l0.007 -0.001a0.05 0.05 0 0 0 0.037 -0.025l0.125 -0.225a0.05 0.05 0 0 0 -0.019 -0.068"></path>
-                                                </svg>
+
+                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
                                             </div>
                                         </div>
                                     </div>
@@ -814,17 +729,12 @@ get_header();
                                         <div class="value d-flex align-items-center gap-2">
                                             Q2FSX523
                                             <div class="copy-btn">
-                                                <svg width="30px" height="30px" viewBox="0 0 0.9 0.9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <g id="style=linear">
-                                                        <g id="copy">
-                                                            <path id="rec" d="M0.669 0.675C0.755 0.675 0.825 0.604 0.825 0.516v-0.319C0.825 0.109 0.755 0.037 0.669 0.037h-0.25C0.332 0.037 0.263 0.109 0.263 0.197" stroke="#fff" stroke-width="0.056249999999999994" stroke-linecap="round"></path>
-                                                            <path id="rec_2" d="M0.075 0.384C0.075 0.296 0.145 0.225 0.231 0.225h0.25C0.568 0.225 0.637 0.296 0.637 0.384v0.319c0 0.088 -0.07 0.159 -0.156 0.159H0.231C0.145 0.862 0.075 0.791 0.075 0.703z" stroke="#fff" stroke-width="0.056249999999999994"></path>
-                                                        </g>
-                                                    </g>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                                 </svg>
-                                                <svg class="tick" fill="#fff" width="20px" height="20px" viewBox="0 0 0.6 0.6" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M0.424 0.156a0.05 0.05 0 0 0 -0.068 0.019l-0.093 0.167 -0.053 -0.053a0.05 0.05 0 1 0 -0.071 0.071l0.1 0.1c0.009 0.009 0.022 0.015 0.035 0.015l0.007 -0.001a0.05 0.05 0 0 0 0.037 -0.025l0.125 -0.225a0.05 0.05 0 0 0 -0.019 -0.068"></path>
-                                                </svg>
+
+                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
                                             </div>
                                         </div>
                                     </div>
@@ -855,17 +765,12 @@ get_header();
                                         <div class="value d-flex align-items-center gap-2">
                                             Q2FSX523
                                             <div class="copy-btn">
-                                                <svg width="30px" height="30px" viewBox="0 0 0.9 0.9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <g id="style=linear">
-                                                        <g id="copy">
-                                                            <path id="rec" d="M0.669 0.675C0.755 0.675 0.825 0.604 0.825 0.516v-0.319C0.825 0.109 0.755 0.037 0.669 0.037h-0.25C0.332 0.037 0.263 0.109 0.263 0.197" stroke="#fff" stroke-width="0.056249999999999994" stroke-linecap="round"></path>
-                                                            <path id="rec_2" d="M0.075 0.384C0.075 0.296 0.145 0.225 0.231 0.225h0.25C0.568 0.225 0.637 0.296 0.637 0.384v0.319c0 0.088 -0.07 0.159 -0.156 0.159H0.231C0.145 0.862 0.075 0.791 0.075 0.703z" stroke="#fff" stroke-width="0.056249999999999994"></path>
-                                                        </g>
-                                                    </g>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                                 </svg>
-                                                <svg class="tick" fill="#fff" width="20px" height="20px" viewBox="0 0 0.6 0.6" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M0.424 0.156a0.05 0.05 0 0 0 -0.068 0.019l-0.093 0.167 -0.053 -0.053a0.05 0.05 0 1 0 -0.071 0.071l0.1 0.1c0.009 0.009 0.022 0.015 0.035 0.015l0.007 -0.001a0.05 0.05 0 0 0 0.037 -0.025l0.125 -0.225a0.05 0.05 0 0 0 -0.019 -0.068"></path>
-                                                </svg>
+
+                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
                                             </div>
                                         </div>
                                     </div>
@@ -896,17 +801,12 @@ get_header();
                                         <div class="value d-flex align-items-center gap-2">
                                             Q2FSX523
                                             <div class="copy-btn">
-                                                <svg width="30px" height="30px" viewBox="0 0 0.9 0.9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <g id="style=linear">
-                                                        <g id="copy">
-                                                            <path id="rec" d="M0.669 0.675C0.755 0.675 0.825 0.604 0.825 0.516v-0.319C0.825 0.109 0.755 0.037 0.669 0.037h-0.25C0.332 0.037 0.263 0.109 0.263 0.197" stroke="#fff" stroke-width="0.056249999999999994" stroke-linecap="round"></path>
-                                                            <path id="rec_2" d="M0.075 0.384C0.075 0.296 0.145 0.225 0.231 0.225h0.25C0.568 0.225 0.637 0.296 0.637 0.384v0.319c0 0.088 -0.07 0.159 -0.156 0.159H0.231C0.145 0.862 0.075 0.791 0.075 0.703z" stroke="#fff" stroke-width="0.056249999999999994"></path>
-                                                        </g>
-                                                    </g>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                                 </svg>
-                                                <svg class="tick" fill="#fff" width="20px" height="20px" viewBox="0 0 0.6 0.6" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M0.424 0.156a0.05 0.05 0 0 0 -0.068 0.019l-0.093 0.167 -0.053 -0.053a0.05 0.05 0 1 0 -0.071 0.071l0.1 0.1c0.009 0.009 0.022 0.015 0.035 0.015l0.007 -0.001a0.05 0.05 0 0 0 0.037 -0.025l0.125 -0.225a0.05 0.05 0 0 0 -0.019 -0.068"></path>
-                                                </svg>
+
+                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
                                             </div>
                                         </div>
                                     </div>
@@ -937,17 +837,12 @@ get_header();
                                         <div class="value d-flex align-items-center gap-2">
                                             Q2FSX523
                                             <div class="copy-btn">
-                                                <svg width="30px" height="30px" viewBox="0 0 0.9 0.9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <g id="style=linear">
-                                                        <g id="copy">
-                                                            <path id="rec" d="M0.669 0.675C0.755 0.675 0.825 0.604 0.825 0.516v-0.319C0.825 0.109 0.755 0.037 0.669 0.037h-0.25C0.332 0.037 0.263 0.109 0.263 0.197" stroke="#fff" stroke-width="0.056249999999999994" stroke-linecap="round"></path>
-                                                            <path id="rec_2" d="M0.075 0.384C0.075 0.296 0.145 0.225 0.231 0.225h0.25C0.568 0.225 0.637 0.296 0.637 0.384v0.319c0 0.088 -0.07 0.159 -0.156 0.159H0.231C0.145 0.862 0.075 0.791 0.075 0.703z" stroke="#fff" stroke-width="0.056249999999999994"></path>
-                                                        </g>
-                                                    </g>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                                 </svg>
-                                                <svg class="tick" fill="#fff" width="20px" height="20px" viewBox="0 0 0.6 0.6" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M0.424 0.156a0.05 0.05 0 0 0 -0.068 0.019l-0.093 0.167 -0.053 -0.053a0.05 0.05 0 1 0 -0.071 0.071l0.1 0.1c0.009 0.009 0.022 0.015 0.035 0.015l0.007 -0.001a0.05 0.05 0 0 0 0.037 -0.025l0.125 -0.225a0.05 0.05 0 0 0 -0.019 -0.068"></path>
-                                                </svg>
+
+                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
                                             </div>
                                         </div>
                                     </div>
@@ -967,7 +862,7 @@ get_header();
             </div>
         </div>
     </section>
-    
+
     <section class="content-box-intro">
         <div class="container">
             <div class="content-inner">
@@ -1053,111 +948,199 @@ get_header();
 
     <section class="list-testimonials">
         <div class="container">
-            <div class="section-heading">
+            <div class="section-heading mb-4">
                 <h2>Khách hàng nói gì về chúng tôi</h2>
                 <p>Hãy lắng nghe những khách hàng tuyệt vời đã sử dụng dịch vụ hoàn phí của chúng tôi.</p>
             </div>
-            <div class="slider-wrapper">
-                <div class="slider-inner">
-                    <ul style="touch-action: pan-y; width: 3290px; height: 324px; margin-left: -822px; visibility: visible;" data-ival="0" data-left="-822">
-                        <li data-index="2" style="width: 790px;" class="">
-                            <div class="rating">
-                                <span></span><span></span><span></span><span></span><span></span>
-                            </div>
-                            <div class="content">
-                                "Tập tành trade được 1 năm rồi và bây giờ mới biết đến backcom. Cảm ơn team của Backcom.com đã hỗ trợ rất nhiệt tình." </div>
-                            <div class="info">
-                                <div class="avatar">
-                                    <span class="user-default">
-                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" ssr="true" class="size-7 text-gray-500 lg:size-8 iconify iconify--icons" style="font-size:20px;" width="1em" height="1em" viewBox="0 0 24 24">
-                                            <g fill="none">
-                                                <g id="iconifyVue494">
-                                                    <path id="iconifyVue495" d="M20 21C20 19.6044 20 18.9067 19.8278 18.3389C19.44 17.0605 18.4395 16.06 17.1611 15.6722C16.5933 15.5 15.8956 15.5 14.5 15.5H9.5C8.10444 15.5 7.40665 15.5 6.83886 15.6722C5.56045 16.06 4.56004 17.0605 4.17224 18.3389C4 18.9067 4 19.6044 4 21M16.5 7.5C16.5 9.98528 14.4853 12 12 12C9.51472 12 7.5 9.98528 7.5 7.5C7.5 5.01472 9.51472 3 12 3C14.4853 3 16.5 5.01472 16.5 7.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                </g>
+        </div>
+        <div class="swiper testimonials-slide">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="detail-testimonials">
+                        <div class="rating">
+                            <span></span><span></span><span></span><span></span><span></span>
+                        </div>
+                        <div class="content">
+                            “Tôi đã tiết kiệm được 1 số tiền đáng kể khi sử dụng sản phẩm của backcoms.”
+                        </div>
+                        <div class="info">
+                            <div class="avatar">
+                                <span class="user-default">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" ssr="true" class="size-7 text-gray-500 lg:size-8 iconify iconify--icons" style="font-size:20px;" width="1em" height="1em" viewBox="0 0 24 24">
+                                        <g fill="none">
+                                            <g id="iconifyVue494">
+                                                <path id="iconifyVue495" d="M20 21C20 19.6044 20 18.9067 19.8278 18.3389C19.44 17.0605 18.4395 16.06 17.1611 15.6722C16.5933 15.5 15.8956 15.5 14.5 15.5H9.5C8.10444 15.5 7.40665 15.5 6.83886 15.6722C5.56045 16.06 4.56004 17.0605 4.17224 18.3389C4 18.9067 4 19.6044 4 21M16.5 7.5C16.5 9.98528 14.4853 12 12 12C9.51472 12 7.5 9.98528 7.5 7.5C7.5 5.01472 9.51472 3 12 3C14.4853 3 16.5 5.01472 16.5 7.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                             </g>
-                                        </svg>
-                                    </span>
-                                </div>
-                                <div class="info-cus">
-                                    <h3>Nguyễn Hoàng Dũng</h3>
-                                    <p>Nhân viên văn phòng</p>
-                                </div>
+                                        </g>
+                                    </svg>
+                                </span>
                             </div>
-                        </li>
-                        <li data-index="3" class="clone-pre current-active" style="width: 790px;">
-                            <div class="rating">
-                                <span></span><span></span><span></span><span></span><span></span>
+                            <div class="info-cus">
+                                <h3>Nguyễn Anh Tú</h3>
+                                <p>Nhân viên văn phòng</p>
                             </div>
-                            <div class="content">
-                                "Tôi đang trade sàn Binance và nhận được backcom mỗi ngày nhờ vào team Backcom.com. Thật sự biết ơn vì dịch vụ quá uy tín." </div>
-                            <div class="info">
-                                <div class="avatar">
-                                    <span class="user-default">
-                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" ssr="true" class="size-7 text-gray-500 lg:size-8 iconify iconify--icons" style="font-size:20px;" width="1em" height="1em" viewBox="0 0 24 24">
-                                            <g fill="none">
-                                                <g id="iconifyVue494">
-                                                    <path id="iconifyVue495" d="M20 21C20 19.6044 20 18.9067 19.8278 18.3389C19.44 17.0605 18.4395 16.06 17.1611 15.6722C16.5933 15.5 15.8956 15.5 14.5 15.5H9.5C8.10444 15.5 7.40665 15.5 6.83886 15.6722C5.56045 16.06 4.56004 17.0605 4.17224 18.3389C4 18.9067 4 19.6044 4 21M16.5 7.5C16.5 9.98528 14.4853 12 12 12C9.51472 12 7.5 9.98528 7.5 7.5C7.5 5.01472 9.51472 3 12 3C14.4853 3 16.5 5.01472 16.5 7.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                </g>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="detail-testimonials">
+                        <div class="rating">
+                            <span></span><span></span><span></span><span></span><span></span>
+                        </div>
+                        <div class="content">
+                            “Tôi đã tiết kiệm được 1 số tiền đáng kể khi sử dụng sản phẩm của backcoms.”
+                        </div>
+                        <div class="info">
+                            <div class="avatar">
+                                <span class="user-default">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" ssr="true" class="size-7 text-gray-500 lg:size-8 iconify iconify--icons" style="font-size:20px;" width="1em" height="1em" viewBox="0 0 24 24">
+                                        <g fill="none">
+                                            <g id="iconifyVue494">
+                                                <path id="iconifyVue495" d="M20 21C20 19.6044 20 18.9067 19.8278 18.3389C19.44 17.0605 18.4395 16.06 17.1611 15.6722C16.5933 15.5 15.8956 15.5 14.5 15.5H9.5C8.10444 15.5 7.40665 15.5 6.83886 15.6722C5.56045 16.06 4.56004 17.0605 4.17224 18.3389C4 18.9067 4 19.6044 4 21M16.5 7.5C16.5 9.98528 14.4853 12 12 12C9.51472 12 7.5 9.98528 7.5 7.5C7.5 5.01472 9.51472 3 12 3C14.4853 3 16.5 5.01472 16.5 7.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                             </g>
-                                        </svg>
-                                    </span>
-                                </div>
-                                <div class="info-cus">
-                                    <h3>Trần Minh Hậu</h3>
-                                    <p>Trader toàn thời gian</p>
-                                </div>
+                                        </g>
+                                    </svg>
+                                </span>
                             </div>
-                        </li>
-                        <li data-index="0" style="width: 790px;" class="">
-                            <div class="rating">
-                                <span></span><span></span><span></span><span></span><span></span>
+                            <div class="info-cus">
+                                <h3>Nguyễn Anh Tú</h3>
+                                <p>Nhân viên văn phòng</p>
                             </div>
-                            <div class="content">
-                                "Tôi đã thật sự nhận được backcom, dịch vụ uy tín, khuyến khích mọi người đăng ký nhé." </div>
-                            <div class="info">
-                                <div class="avatar">
-                                    <span class="user-default">
-                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" ssr="true" class="size-7 text-gray-500 lg:size-8 iconify iconify--icons" style="font-size:20px;" width="1em" height="1em" viewBox="0 0 24 24">
-                                            <g fill="none">
-                                                <g id="iconifyVue494">
-                                                    <path id="iconifyVue495" d="M20 21C20 19.6044 20 18.9067 19.8278 18.3389C19.44 17.0605 18.4395 16.06 17.1611 15.6722C16.5933 15.5 15.8956 15.5 14.5 15.5H9.5C8.10444 15.5 7.40665 15.5 6.83886 15.6722C5.56045 16.06 4.56004 17.0605 4.17224 18.3389C4 18.9067 4 19.6044 4 21M16.5 7.5C16.5 9.98528 14.4853 12 12 12C9.51472 12 7.5 9.98528 7.5 7.5C7.5 5.01472 9.51472 3 12 3C14.4853 3 16.5 5.01472 16.5 7.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                </g>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="detail-testimonials">
+                        <div class="rating">
+                            <span></span><span></span><span></span><span></span><span></span>
+                        </div>
+                        <div class="content">
+                            “Tôi đã tiết kiệm được 1 số tiền đáng kể khi sử dụng sản phẩm của backcoms.”
+                        </div>
+                        <div class="info">
+                            <div class="avatar">
+                                <span class="user-default">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" ssr="true" class="size-7 text-gray-500 lg:size-8 iconify iconify--icons" style="font-size:20px;" width="1em" height="1em" viewBox="0 0 24 24">
+                                        <g fill="none">
+                                            <g id="iconifyVue494">
+                                                <path id="iconifyVue495" d="M20 21C20 19.6044 20 18.9067 19.8278 18.3389C19.44 17.0605 18.4395 16.06 17.1611 15.6722C16.5933 15.5 15.8956 15.5 14.5 15.5H9.5C8.10444 15.5 7.40665 15.5 6.83886 15.6722C5.56045 16.06 4.56004 17.0605 4.17224 18.3389C4 18.9067 4 19.6044 4 21M16.5 7.5C16.5 9.98528 14.4853 12 12 12C9.51472 12 7.5 9.98528 7.5 7.5C7.5 5.01472 9.51472 3 12 3C14.4853 3 16.5 5.01472 16.5 7.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                             </g>
-                                        </svg>
-                                    </span>
-                                </div>
-                                <div class="info-cus">
-                                    <h3>Nguyễn Minh Khôi</h3>
-                                    <p>Trader toàn thời gian</p>
-                                </div>
+                                        </g>
+                                    </svg>
+                                </span>
                             </div>
-                        </li>
-                        <li data-index="1" style="width: 790px;" class="">
-                            <div class="rating">
-                                <span></span><span></span><span></span><span></span><span></span>
+                            <div class="info-cus">
+                                <h3>Nguyễn Anh Tú</h3>
+                                <p>Nhân viên văn phòng</p>
                             </div>
-                            <div class="content">
-                                “Tôi đã tiết kiệm được 1 số tiền đáng kể khi sử dụng sản phẩm của backcoms.” </div>
-                            <div class="info">
-                                <div class="avatar">
-                                    <span class="user-default">
-                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" ssr="true" class="size-7 text-gray-500 lg:size-8 iconify iconify--icons" style="font-size:20px;" width="1em" height="1em" viewBox="0 0 24 24">
-                                            <g fill="none">
-                                                <g id="iconifyVue494">
-                                                    <path id="iconifyVue495" d="M20 21C20 19.6044 20 18.9067 19.8278 18.3389C19.44 17.0605 18.4395 16.06 17.1611 15.6722C16.5933 15.5 15.8956 15.5 14.5 15.5H9.5C8.10444 15.5 7.40665 15.5 6.83886 15.6722C5.56045 16.06 4.56004 17.0605 4.17224 18.3389C4 18.9067 4 19.6044 4 21M16.5 7.5C16.5 9.98528 14.4853 12 12 12C9.51472 12 7.5 9.98528 7.5 7.5C7.5 5.01472 9.51472 3 12 3C14.4853 3 16.5 5.01472 16.5 7.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                                </g>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="detail-testimonials">
+                        <div class="rating">
+                            <span></span><span></span><span></span><span></span><span></span>
+                        </div>
+                        <div class="content">
+                            “Tôi đã tiết kiệm được 1 số tiền đáng kể khi sử dụng sản phẩm của backcoms.”
+                        </div>
+                        <div class="info">
+                            <div class="avatar">
+                                <span class="user-default">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" ssr="true" class="size-7 text-gray-500 lg:size-8 iconify iconify--icons" style="font-size:20px;" width="1em" height="1em" viewBox="0 0 24 24">
+                                        <g fill="none">
+                                            <g id="iconifyVue494">
+                                                <path id="iconifyVue495" d="M20 21C20 19.6044 20 18.9067 19.8278 18.3389C19.44 17.0605 18.4395 16.06 17.1611 15.6722C16.5933 15.5 15.8956 15.5 14.5 15.5H9.5C8.10444 15.5 7.40665 15.5 6.83886 15.6722C5.56045 16.06 4.56004 17.0605 4.17224 18.3389C4 18.9067 4 19.6044 4 21M16.5 7.5C16.5 9.98528 14.4853 12 12 12C9.51472 12 7.5 9.98528 7.5 7.5C7.5 5.01472 9.51472 3 12 3C14.4853 3 16.5 5.01472 16.5 7.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                             </g>
-                                        </svg>
-                                    </span>
-                                </div>
-                                <div class="info-cus">
-                                    <h3>Nguyễn Anh Tú</h3>
-                                    <p>Nhân viên văn phòng</p>
-                                </div>
+                                        </g>
+                                    </svg>
+                                </span>
                             </div>
-                        </li>
-                    </ul>
-                    <div class="slider-control"><a href="#" class="prev"></a><a href="#" class="next"></a></div>
+                            <div class="info-cus">
+                                <h3>Nguyễn Anh Tú</h3>
+                                <p>Nhân viên văn phòng</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="detail-testimonials">
+                        <div class="rating">
+                            <span></span><span></span><span></span><span></span><span></span>
+                        </div>
+                        <div class="content">
+                            “Tôi đã tiết kiệm được 1 số tiền đáng kể khi sử dụng sản phẩm của backcoms.”
+                        </div>
+                        <div class="info">
+                            <div class="avatar">
+                                <span class="user-default">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" ssr="true" class="size-7 text-gray-500 lg:size-8 iconify iconify--icons" style="font-size:20px;" width="1em" height="1em" viewBox="0 0 24 24">
+                                        <g fill="none">
+                                            <g id="iconifyVue494">
+                                                <path id="iconifyVue495" d="M20 21C20 19.6044 20 18.9067 19.8278 18.3389C19.44 17.0605 18.4395 16.06 17.1611 15.6722C16.5933 15.5 15.8956 15.5 14.5 15.5H9.5C8.10444 15.5 7.40665 15.5 6.83886 15.6722C5.56045 16.06 4.56004 17.0605 4.17224 18.3389C4 18.9067 4 19.6044 4 21M16.5 7.5C16.5 9.98528 14.4853 12 12 12C9.51472 12 7.5 9.98528 7.5 7.5C7.5 5.01472 9.51472 3 12 3C14.4853 3 16.5 5.01472 16.5 7.5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="info-cus">
+                                <h3>Nguyễn Anh Tú</h3>
+                                <p>Nhân viên văn phòng</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <section class="list-faqs">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Câu hỏi thường gặp</h2>
+                <p>Về chương trình hoàn phí giao dịch tại Backcom.com</p>
+            </div>
+            <div class="list-content-accord">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Backcom.com có uy tín không?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Backcom.com</strong> là một trong những dịch vụ hoàn phí giao dịch forex và crypto uy tín, chất lượng nhất trên thị trường. Hiện tại, chúng tôi đang cung cấp dịch vụ cho hàng chục nghìn trader với mức hoàn phí cao nhất mà chưa từng xảy ra bất kỳ khiếu nại nào từ phía trader. Hãy xem thêm về chất lượng dịch vụ của Backcom.com thông qua phần đánh giá của khách hàng nhé.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Accordion Item #2
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Accordion Item #3
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
