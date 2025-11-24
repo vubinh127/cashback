@@ -36,7 +36,7 @@ header .navbar-brand img {
     width: auto;
 }
 
-header .navbar-light .navbar-nav .nav-link {
+header .navbar-light .navbar-nav .menu-item {
     color: #fff;
 }
 
@@ -151,7 +151,7 @@ header .menu-custom .btn-close svg path,
     fill: #000;
 }
 
-header .menu-custom .nav-bar-menu ul {
+header .menu-custom ul.nav-bar-menu {
     display: inline-flex;
     flex-wrap: wrap;
     gap: 0 24px;
@@ -172,7 +172,7 @@ header .menu-custom .btn-close {
     cursor: pointer;
 }
 
-header .menu-custom .nav-link {
+header .menu-custom .menu-item {
     color: #101828;
     font-weight: 600;
     padding: 8px 0;
@@ -197,14 +197,13 @@ header .menu-custom.menu-pc .sub-menu {
     border: 1px solid #F3F4F6;
 }
 
-header .nav-item.has-sub {
+header .menu-item.menu-item-has-children {
     position: relative;
 }
 
-header .menu-custom.menu-pc .nav-item.has-sub:hover>.sub-menu {
+header .menu-custom.menu-pc .menu-item.menu-item-has-children:hover>.sub-menu {
     display: block;
 }
-
 
 header .contact-button {
     width: 20%;
@@ -225,14 +224,14 @@ header .contact-button a {
     text-align: center;
 }
 
-header .nav-item.has-sub>.toggle-sub {
+header .menu-item.menu-item-has-children > a {
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-header .nav-item.has-sub.has-arrow>.toggle-sub::after {
+header .menu-item.menu-item-has-children.has-arrow > a::after {
     content: "";
     display: inline-block;
     width: 8px;
@@ -244,13 +243,14 @@ header .nav-item.has-sub.has-arrow>.toggle-sub::after {
     margin-left: 8px;
 }
 
-header .nav-item.has-sub.open>.toggle-sub::after {
+header .menu-item.menu-item-has-children.open> a::after {
     transform: rotate(-135deg);
 }
 
-header .dropdown-item {
+header .sub-menu .menu-item a {
     color: #000;
-    display: block;
+    display: flex;
+    align-items: center;
     font-weight: 600;
     color: #101828;
     padding: 12px;
@@ -259,14 +259,13 @@ header .dropdown-item {
     border-radius: 8px;
 }
 
-header .dropdown-item img {
+header .sub-menu .menu-item a img{
     margin-right: 12px;
     width: 32px;
     height: 32px;
 }
 
-
-header .dropdown-item:hover {
+header .sub-menu .menu-item a:hover {
     background: #F3F4F6;
     color: #252525;
 }
@@ -298,7 +297,6 @@ header .menu-overlay .menu-custom.menu-sp.active {
 }
 
 header .menu-overlay .menu-custom.menu-sp .nav-bar-menu ul {
-    display: flex;
     flex-direction: column;
 }
 
@@ -314,8 +312,9 @@ header .menu-overlay .menu-custom.menu-sp .sub-menu {
     margin-bottom: 10px;
 }
 
-header .menu-custom.menu-sp .nav-item.has-sub {
+header .menu-custom.menu-sp .menu-item.menu-item-has-children {
     border-bottom: none;
+    width: 100%;
 }
 
 header .menu-custom.menu-sp .contact-button {
@@ -327,6 +326,9 @@ header .menu-custom.menu-sp .contact-button a {
     width: 100%;
 }
 
+header .menu-custom.menu-sp .sub-menu a{
+    padding: 0;
+}
 
 @media (max-width: 767px) {
     header .menu-custom {
@@ -669,7 +671,7 @@ section.banner-home .list-icon-featured ul li .info p {
     gap: 0 24px;
     padding-bottom: 40px;
     border-bottom: 1px solid #D0D5DD;
-    margin-bottom: 40 px;
+    margin-bottom: 40px;
 }
 
 .content-summary .logo-trading {

@@ -11,21 +11,21 @@ $(document).ready(function () {
     });
 
 
-    $(".nav-item.has-sub").each(function () {
+    $(".menu-item.menu-item-has-children").each(function () {
         if ($(this).find(".sub-menu").length > 0) {
             $(this).addClass("has-arrow");
         }
     });
 
-    $(".toggle-sub").on("click", function (e) {
-        const $parent = $(this).closest(".nav-item");
+    $(".menu-item.menu-item-has-children > a").on("click", function (e) {
+        const $parent = $(this).closest(".menu-item");
 
         if ($parent.find(".sub-menu").length) {
             e.preventDefault();
 
             const $submenu = $parent.find(".sub-menu").first();
 
-            $(".nav-item.has-sub").not($parent).removeClass("open").find(".sub-menu").slideUp(300);
+            $(".menu-item.menu-item-has-children").not($parent).removeClass("open").find(".sub-menu").slideUp(300);
 
             $parent.toggleClass("open");
             $submenu.stop(true, true).slideToggle(300);
