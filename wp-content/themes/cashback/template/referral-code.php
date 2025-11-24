@@ -5,7 +5,7 @@
  */
 get_header();
 ?>
-
+<section class="block-refferal-id">
     <div class="container">
           <form class="form-enter-id d-none d-lg-flex">
             <input type="text" class="input-search" name="your_uid" data-lang="en" placeholder="Enter your UID">
@@ -30,6 +30,8 @@ get_header();
             </button>
         </form>
     </div>
+</section>
 
 <?php
+
 get_footer();
