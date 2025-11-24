@@ -78,10 +78,8 @@ get_header();
     <section class="block-main">
         <div class="container">
             <div class="title-block">Danh sách sàn giao dịch</div>
-        </div>
 
-        <div class="block-exchanges">
-            <div class="container">
+            <div class="block-exchanges">
                 <nav>
                     <div class="nav nav-tabs" id="nav-tab" role="tablist">
                         <button class="nav-link active" id="nav-all-tab" data-bs-toggle="tab" data-bs-target="#nav-all" type="button" role="tab" aria-controls="nav-all" aria-selected="true">All </button>
@@ -92,14 +90,13 @@ get_header();
                 <div class="tab-content" id="nav-tabContent">
                     <div class="tab-pane fade show active" id="nav-all" role="tabpanel" aria-labelledby="nav-all-tab">
                         <div class="list-exchanges">
+
                             <div class="exchanges">
-                                <div class="logo">
-                                    <img src="https://public.bnbstatic.com/20190405/eb2349c3-b2f8-4a93-a286-8f86a62ea9d8.png" alt="">
-                                    <a href="/video.html" class="btn-video">
-                                        <img src="https://png.pngtree.com/png-clipart/20221018/ourmid/pngtree-youtube-social-media-3d-stereo-png-image_6308427.png" alt="">
-                                        Tutorial Video
-                                    </a>
-                                </div>
+                                <a href="">
+                                    <div class="logo">
+                                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/Rectangle-4140.png" alt="">
+                                    </div>
+                                </a>
                                 <div class="content">
                                     <div class="title">Binance</div>
                                     <div class="w-100 d-flex justify-content-between gap-4 mb-2">
@@ -132,10 +129,11 @@ get_header();
                             </div>
 
                             <div class="exchanges">
-                                <div class="logo">
-                                    <img src="https://cashback.exchange/image/exchanges/okx.png" alt="">
-
-                                </div>
+                                <a href="">
+                                    <div class="logo">
+                                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/Rectangle-4140-1.png" alt="">
+                                    </div>
+                                </a>
                                 <div class="content">
                                     <div class="title">OKX</div>
                                     <div class="w-100 d-flex justify-content-between gap-4 mb-2">
@@ -145,7 +143,7 @@ get_header();
                                     <div class="w-100 d-flex justify-content-between gap-4 mb-2">
                                         <div class="name">Ref code:</div>
                                         <div class="value d-flex align-items-center gap-2">
-                                            Q2FSX523
+                                            79260090
                                             <div class="copy-btn">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                                     <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -168,12 +166,13 @@ get_header();
                             </div>
 
                             <div class="exchanges">
-                                <div class="logo">
-                                    <img src="https://public.bnbstatic.com/20190405/eb2349c3-b2f8-4a93-a286-8f86a62ea9d8.png" alt="">
-
-                                </div>
+                                <a href="">
+                                    <div class="logo">
+                                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/Rectangle-4140-2.png" alt="">
+                                    </div>
+                                </a>
                                 <div class="content">
-                                    <div class="title">Binance</div>
+                                    <div class="title">BingX</div>
                                     <div class="w-100 d-flex justify-content-between gap-4 mb-2">
                                         <div class="name">Type:</div>
                                         <div class="value">Cashback Auto Daily</div>
@@ -204,12 +203,13 @@ get_header();
                             </div>
 
                             <div class="exchanges">
-                                <div class="logo">
-                                    <img src="https://public.bnbstatic.com/20190405/eb2349c3-b2f8-4a93-a286-8f86a62ea9d8.png" alt="">
-
-                                </div>
+                                <a href="">
+                                    <div class="logo">
+                                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/Rectangle-4140-3.png" alt="">
+                                    </div>
+                                </a>
                                 <div class="content">
-                                    <div class="title">Binance</div>
+                                    <div class="title">Bitget</div>
                                     <div class="w-100 d-flex justify-content-between gap-4 mb-2">
                                         <div class="name">Type:</div>
                                         <div class="value">Cashback Auto Daily</div>
@@ -240,12 +240,13 @@ get_header();
                             </div>
 
                             <div class="exchanges">
-                                <div class="logo">
-                                    <img src="https://public.bnbstatic.com/20190405/eb2349c3-b2f8-4a93-a286-8f86a62ea9d8.png" alt="">
-
-                                </div>
+                                <a href="">
+                                    <div class="logo">
+                                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/Rectangle-4140-4.png" alt="">
+                                    </div>
+                                </a>
                                 <div class="content">
-                                    <div class="title">Binance</div>
+                                    <div class="title">Bybit</div>
                                     <div class="w-100 d-flex justify-content-between gap-4 mb-2">
                                         <div class="name">Type:</div>
                                         <div class="value">Cashback Auto Daily</div>
@@ -276,12 +277,13 @@ get_header();
                             </div>
 
                             <div class="exchanges">
-                                <div class="logo">
-                                    <img src="https://public.bnbstatic.com/20190405/eb2349c3-b2f8-4a93-a286-8f86a62ea9d8.png" alt="">
-
-                                </div>
+                                <a href="">
+                                    <div class="logo">
+                                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/Rectangle-4140-5.png" alt="">
+                                    </div>
+                                </a>
                                 <div class="content">
-                                    <div class="title">Binance</div>
+                                    <div class="title">Exness</div>
                                     <div class="w-100 d-flex justify-content-between gap-4 mb-2">
                                         <div class="name">Type:</div>
                                         <div class="value">Cashback Auto Daily</div>
@@ -312,12 +314,161 @@ get_header();
                             </div>
 
                             <div class="exchanges">
-                                <div class="logo">
-                                    <img src="https://public.bnbstatic.com/20190405/eb2349c3-b2f8-4a93-a286-8f86a62ea9d8.png" alt="">
-
-                                </div>
+                                <a href="">
+                                    <div class="logo">
+                                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/Rectangle-4140-6.png" alt="">
+                                    </div>
+                                </a>
                                 <div class="content">
-                                    <div class="title">Binance</div>
+                                    <div class="title">XM</div>
+                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
+                                        <div class="name">Type:</div>
+                                        <div class="value">Cashback Auto Daily</div>
+                                    </div>
+                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
+                                        <div class="name">Ref code:</div>
+                                        <div class="value d-flex align-items-center gap-2">
+                                            Q2FSX523
+                                            <div class="copy-btn">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+
+                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
+                                        <div class="name">Example</div>
+                                        <div class="value">$100 fee | $20 rebate</div>
+                                    </div>
+                                    <div class="d-flex justify-content-between gap-4 backcom">
+                                        <div class="name">Commission up to</div>
+                                        <div class="value">45%</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="exchanges">
+                                <a href="">
+                                    <div class="logo">
+                                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/Rectangle-4140-7.png" alt="">
+                                    </div>
+                                </a>
+                                <div class="content">
+                                    <div class="title">Gate.io</div>
+                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
+                                        <div class="name">Type:</div>
+                                        <div class="value">Cashback Auto Daily</div>
+                                    </div>
+                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
+                                        <div class="name">Ref code:</div>
+                                        <div class="value d-flex align-items-center gap-2">
+                                            Q2FSX523
+                                            <div class="copy-btn">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+
+                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
+                                        <div class="name">Example</div>
+                                        <div class="value">$100 fee | $20 rebate</div>
+                                    </div>
+                                    <div class="d-flex justify-content-between gap-4 backcom">
+                                        <div class="name">Commission up to</div>
+                                        <div class="value">45%</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="exchanges">
+                                <a href="">
+                                    <div class="logo">
+                                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/image-9.png" alt="">
+                                    </div>
+                                </a>
+                                <div class="content">
+                                    <div class="title">IC Markets</div>
+                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
+                                        <div class="name">Type:</div>
+                                        <div class="value">Cashback Auto Daily</div>
+                                    </div>
+                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
+                                        <div class="name">Ref code:</div>
+                                        <div class="value d-flex align-items-center gap-2">
+                                            Q2FSX523
+                                            <div class="copy-btn">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+
+                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
+                                        <div class="name">Example</div>
+                                        <div class="value">$100 fee | $20 rebate</div>
+                                    </div>
+                                    <div class="d-flex justify-content-between gap-4 backcom">
+                                        <div class="name">Commission up to</div>
+                                        <div class="value">45%</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="exchanges">
+                                <a href="">
+                                    <div class="logo">
+                                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/Rectangle-4140-8.png" alt="">
+                                    </div>
+                                </a>
+                                <div class="content">
+                                    <div class="title">MEXC</div>
+                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
+                                        <div class="name">Type:</div>
+                                        <div class="value">Cashback Auto Daily</div>
+                                    </div>
+                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
+                                        <div class="name">Ref code:</div>
+                                        <div class="value d-flex align-items-center gap-2">
+                                            Q2FSX523
+                                            <div class="copy-btn">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+
+                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
+                                        <div class="name">Example</div>
+                                        <div class="value">$100 fee | $20 rebate</div>
+                                    </div>
+                                    <div class="d-flex justify-content-between gap-4 backcom">
+                                        <div class="name">Commission up to</div>
+                                        <div class="value">45%</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="exchanges">
+                                <a href="">
+                                    <div class="logo">
+                                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/Rectangle-4140-9.png" alt="">
+                                    </div>
+                                </a>
+                                <div class="content">
+                                    <div class="title">Kucoin</div>
                                     <div class="w-100 d-flex justify-content-between gap-4 mb-2">
                                         <div class="name">Type:</div>
                                         <div class="value">Cashback Auto Daily</div>
@@ -351,10 +502,11 @@ get_header();
                     <div class="tab-pane fade" id="nav-crypto" role="tabpanel" aria-labelledby="nav-crypto-tab">
                         <div class="list-exchanges">
                             <div class="exchanges">
-                                <div class="logo">
-                                    <img src="https://public.bnbstatic.com/20190405/eb2349c3-b2f8-4a93-a286-8f86a62ea9d8.png" alt="">
-
-                                </div>
+                                <a href="">
+                                    <div class="logo">
+                                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/Rectangle-4140.png" alt="">
+                                    </div>
+                                </a>
                                 <div class="content">
                                     <div class="title">Binance</div>
                                     <div class="w-100 d-flex justify-content-between gap-4 mb-2">
@@ -387,12 +539,50 @@ get_header();
                             </div>
 
                             <div class="exchanges">
-                                <div class="logo">
-                                    <img src="https://public.bnbstatic.com/20190405/eb2349c3-b2f8-4a93-a286-8f86a62ea9d8.png" alt="">
-
-                                </div>
+                                <a href="">
+                                    <div class="logo">
+                                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/Rectangle-4140-1.png" alt="">
+                                    </div>
+                                </a>
                                 <div class="content">
-                                    <div class="title">Binance</div>
+                                    <div class="title">OKX</div>
+                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
+                                        <div class="name">Type:</div>
+                                        <div class="value">Cashback Auto Daily</div>
+                                    </div>
+                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
+                                        <div class="name">Ref code:</div>
+                                        <div class="value d-flex align-items-center gap-2">
+                                            79260090
+                                            <div class="copy-btn">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+
+                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
+                                        <div class="name">Example</div>
+                                        <div class="value">$100 fee | $20 rebate</div>
+                                    </div>
+                                    <div class="d-flex justify-content-between gap-4 backcom">
+                                        <div class="name">Commission up to</div>
+                                        <div class="value">45%</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="exchanges">
+                                <a href="">
+                                    <div class="logo">
+                                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/Rectangle-4140-2.png" alt="">
+                                    </div>
+                                </a>
+                                <div class="content">
+                                    <div class="title">BingX</div>
                                     <div class="w-100 d-flex justify-content-between gap-4 mb-2">
                                         <div class="name">Type:</div>
                                         <div class="value">Cashback Auto Daily</div>
@@ -423,156 +613,13 @@ get_header();
                             </div>
 
                             <div class="exchanges">
-                                <div class="logo">
-                                    <img src="https://public.bnbstatic.com/20190405/eb2349c3-b2f8-4a93-a286-8f86a62ea9d8.png" alt="">
-
-                                </div>
+                                <a href="">
+                                    <div class="logo">
+                                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/Rectangle-4140-3.png" alt="">
+                                    </div>
+                                </a>
                                 <div class="content">
-                                    <div class="title">Binance</div>
-                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
-                                        <div class="name">Type:</div>
-                                        <div class="value">Cashback Auto Daily</div>
-                                    </div>
-                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
-                                        <div class="name">Ref code:</div>
-                                        <div class="value d-flex align-items-center gap-2">
-                                            Q2FSX523
-                                            <div class="copy-btn">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-
-                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
-                                        <div class="name">Example</div>
-                                        <div class="value">$100 fee | $20 rebate</div>
-                                    </div>
-                                    <div class="d-flex justify-content-between gap-4 backcom">
-                                        <div class="name">Commission up to</div>
-                                        <div class="value">45%</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="exchanges">
-                                <div class="logo">
-                                    <img src="https://public.bnbstatic.com/20190405/eb2349c3-b2f8-4a93-a286-8f86a62ea9d8.png" alt="">
-
-                                </div>
-                                <div class="content">
-                                    <div class="title">Binance</div>
-                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
-                                        <div class="name">Type:</div>
-                                        <div class="value">Cashback Auto Daily</div>
-                                    </div>
-                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
-                                        <div class="name">Ref code:</div>
-                                        <div class="value d-flex align-items-center gap-2">
-                                            Q2FSX523
-                                            <div class="copy-btn">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-
-                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
-                                        <div class="name">Example</div>
-                                        <div class="value">$100 fee | $20 rebate</div>
-                                    </div>
-                                    <div class="d-flex justify-content-between gap-4 backcom">
-                                        <div class="name">Commission up to</div>
-                                        <div class="value">45%</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="exchanges">
-                                <div class="logo">
-                                    <img src="https://public.bnbstatic.com/20190405/eb2349c3-b2f8-4a93-a286-8f86a62ea9d8.png" alt="">
-
-                                </div>
-                                <div class="content">
-                                    <div class="title">Binance</div>
-                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
-                                        <div class="name">Type:</div>
-                                        <div class="value">Cashback Auto Daily</div>
-                                    </div>
-                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
-                                        <div class="name">Ref code:</div>
-                                        <div class="value d-flex align-items-center gap-2">
-                                            Q2FSX523
-                                            <div class="copy-btn">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-
-                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
-                                        <div class="name">Example</div>
-                                        <div class="value">$100 fee | $20 rebate</div>
-                                    </div>
-                                    <div class="d-flex justify-content-between gap-4 backcom">
-                                        <div class="name">Commission up to</div>
-                                        <div class="value">45%</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="exchanges">
-                                <div class="logo">
-                                    <img src="https://public.bnbstatic.com/20190405/eb2349c3-b2f8-4a93-a286-8f86a62ea9d8.png" alt="">
-
-                                </div>
-                                <div class="content">
-                                    <div class="title">Binance</div>
-                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
-                                        <div class="name">Type:</div>
-                                        <div class="value">Cashback Auto Daily</div>
-                                    </div>
-                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
-                                        <div class="name">Ref code:</div>
-                                        <div class="value d-flex align-items-center gap-2">
-                                            Q2FSX523
-                                            <div class="copy-btn">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-
-                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
-                                        <div class="name">Example</div>
-                                        <div class="value">$100 fee | $20 rebate</div>
-                                    </div>
-                                    <div class="d-flex justify-content-between gap-4 backcom">
-                                        <div class="name">Commission up to</div>
-                                        <div class="value">45%</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="exchanges">
-                                <div class="logo">
-                                    <img src="https://public.bnbstatic.com/20190405/eb2349c3-b2f8-4a93-a286-8f86a62ea9d8.png" alt="">
-
-                                </div>
-                                <div class="content">
-                                    <div class="title">Binance</div>
+                                    <div class="title">Bitget</div>
                                     <div class="w-100 d-flex justify-content-between gap-4 mb-2">
                                         <div class="name">Type:</div>
                                         <div class="value">Cashback Auto Daily</div>
@@ -606,10 +653,11 @@ get_header();
                     <div class="tab-pane fade" id="nav-forex" role="tabpanel" aria-labelledby="nav-forex-tab">
                         <div class="list-exchanges">
                             <div class="exchanges">
-                                <div class="logo">
-                                    <img src="https://cashback.exchange/image/exchanges/exness.png" alt="">
-
-                                </div>
+                                <a href="">
+                                    <div class="logo">
+                                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/Rectangle-4140-5.png" alt="">
+                                    </div>
+                                </a>
                                 <div class="content">
                                     <div class="title">Exness</div>
                                     <div class="w-100 d-flex justify-content-between gap-4 mb-2">
@@ -642,12 +690,13 @@ get_header();
                             </div>
 
                             <div class="exchanges">
-                                <div class="logo">
-                                    <img src="https://public.bnbstatic.com/20190405/eb2349c3-b2f8-4a93-a286-8f86a62ea9d8.png" alt="">
-
-                                </div>
+                                <a href="">
+                                    <div class="logo">
+                                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/Rectangle-4140-6.png" alt="">
+                                    </div>
+                                </a>
                                 <div class="content">
-                                    <div class="title">Binance</div>
+                                    <div class="title">XM</div>
                                     <div class="w-100 d-flex justify-content-between gap-4 mb-2">
                                         <div class="name">Type:</div>
                                         <div class="value">Cashback Auto Daily</div>
@@ -676,14 +725,14 @@ get_header();
                                     </div>
                                 </div>
                             </div>
-
                             <div class="exchanges">
-                                <div class="logo">
-                                    <img src="https://public.bnbstatic.com/20190405/eb2349c3-b2f8-4a93-a286-8f86a62ea9d8.png" alt="">
-
-                                </div>
+                                <a href="">
+                                    <div class="logo">
+                                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/image-9.png" alt="">
+                                    </div>
+                                </a>
                                 <div class="content">
-                                    <div class="title">Binance</div>
+                                    <div class="title">IC Markets</div>
                                     <div class="w-100 d-flex justify-content-between gap-4 mb-2">
                                         <div class="name">Type:</div>
                                         <div class="value">Cashback Auto Daily</div>
@@ -713,154 +762,13 @@ get_header();
                                 </div>
                             </div>
 
-                            <div class="exchanges">
-                                <div class="logo">
-                                    <img src="https://public.bnbstatic.com/20190405/eb2349c3-b2f8-4a93-a286-8f86a62ea9d8.png" alt="">
-
-                                </div>
-                                <div class="content">
-                                    <div class="title">Binance</div>
-                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
-                                        <div class="name">Type:</div>
-                                        <div class="value">Cashback Auto Daily</div>
-                                    </div>
-                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
-                                        <div class="name">Ref code:</div>
-                                        <div class="value d-flex align-items-center gap-2">
-                                            Q2FSX523
-                                            <div class="copy-btn">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-
-                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
-                                        <div class="name">Example</div>
-                                        <div class="value">$100 fee | $20 rebate</div>
-                                    </div>
-                                    <div class="d-flex justify-content-between gap-4 backcom">
-                                        <div class="name">Commission up to</div>
-                                        <div class="value">45%</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="exchanges">
-                                <div class="logo">
-                                    <img src="https://public.bnbstatic.com/20190405/eb2349c3-b2f8-4a93-a286-8f86a62ea9d8.png" alt="">
-
-                                </div>
-                                <div class="content">
-                                    <div class="title">Binance</div>
-                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
-                                        <div class="name">Type:</div>
-                                        <div class="value">Cashback Auto Daily</div>
-                                    </div>
-                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
-                                        <div class="name">Ref code:</div>
-                                        <div class="value d-flex align-items-center gap-2">
-                                            Q2FSX523
-                                            <div class="copy-btn">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-
-                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
-                                        <div class="name">Example</div>
-                                        <div class="value">$100 fee | $20 rebate</div>
-                                    </div>
-                                    <div class="d-flex justify-content-between gap-4 backcom">
-                                        <div class="name">Commission up to</div>
-                                        <div class="value">45%</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="exchanges">
-                                <div class="logo">
-                                    <img src="https://public.bnbstatic.com/20190405/eb2349c3-b2f8-4a93-a286-8f86a62ea9d8.png" alt="">
-
-                                </div>
-                                <div class="content">
-                                    <div class="title">Binance</div>
-                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
-                                        <div class="name">Type:</div>
-                                        <div class="value">Cashback Auto Daily</div>
-                                    </div>
-                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
-                                        <div class="name">Ref code:</div>
-                                        <div class="value d-flex align-items-center gap-2">
-                                            Q2FSX523
-                                            <div class="copy-btn">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-
-                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
-                                        <div class="name">Example</div>
-                                        <div class="value">$100 fee | $20 rebate</div>
-                                    </div>
-                                    <div class="d-flex justify-content-between gap-4 backcom">
-                                        <div class="name">Commission up to</div>
-                                        <div class="value">45%</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="exchanges">
-                                <div class="logo">
-                                    <img src="https://public.bnbstatic.com/20190405/eb2349c3-b2f8-4a93-a286-8f86a62ea9d8.png" alt="">
-
-                                </div>
-                                <div class="content">
-                                    <div class="title">Binance</div>
-                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
-                                        <div class="name">Type:</div>
-                                        <div class="value">Cashback Auto Daily</div>
-                                    </div>
-                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
-                                        <div class="name">Ref code:</div>
-                                        <div class="value d-flex align-items-center gap-2">
-                                            Q2FSX523
-                                            <div class="copy-btn">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-
-                                                <span class="tooltip-copy">Đã sao chép liên kết</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
-                                        <div class="name">Example</div>
-                                        <div class="value">$100 fee | $20 rebate</div>
-                                    </div>
-                                    <div class="d-flex justify-content-between gap-4 backcom">
-                                        <div class="name">Commission up to</div>
-                                        <div class="value">45%</div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
-                </div>
+                <div>
             </div>
         </div>
+
+
     </section>
 
     <section class="content-box-intro">

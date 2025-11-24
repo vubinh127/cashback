@@ -151,7 +151,7 @@ header .menu-custom .btn-close svg path,
     fill: #000;
 }
 
-header .menu-custom ul.nav-bar-menu {
+header .menu-custom .nav-bar-menu ul {
     display: inline-flex;
     flex-wrap: wrap;
     gap: 0 24px;
@@ -297,7 +297,7 @@ header .menu-overlay .menu-custom.menu-sp.active {
     visibility: visible;
 }
 
-header .menu-overlay .menu-custom.menu-sp ul.nav-bar-menu {
+header .menu-overlay .menu-custom.menu-sp .nav-bar-menu ul {
     display: flex;
     flex-direction: column;
 }
@@ -589,7 +589,6 @@ section.banner-home .list-icon-featured ul li .info p {
 }
 
 .block-exchanges .exchanges:hover {
-    transform: scale(1.03);
     box-shadow: 0 0 15px rgba(110, 60, 220, 0.3);
 }
 
@@ -620,10 +619,10 @@ section.banner-home .list-icon-featured ul li .info p {
     line-height: 20px;
     color: #101828;
     font-weight: 600;
+    position: relative;
 }
 
 .block-exchanges .exchanges .content .copy-btn {
-    position: relative;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -853,16 +852,8 @@ section.banner-home .list-icon-featured ul li .info p {
     display: none;
 }
 
-
-
-
-
 .block-exchanges .exchanges .content .copy-btn svg {
     width: 25px;
-}
-
-.block-exchanges .exchanges .content .copy-btn svg path {
-    fill: #000
 }
 
 .block-exchanges .exchanges .content .copy-btn.copied svg.tick path {
@@ -895,7 +886,7 @@ section.banner-home .list-icon-featured ul li .info p {
 .block-exchanges .exchanges .content .backcom {
     border: 1px solid #CAB52A;
     padding: 10px;
-    margin: 20px -10px 0px;
+    margin: 20px 0px;
     border-radius: 8px;
     background: #FFFCEB;
 }
@@ -1271,7 +1262,8 @@ footer .main-footer .main-inner-footer .widget.widget_text p span {
     color: #94969C;
 }
 
-footer .main-footer .main-inner-footer .widget.widget_contact_footer_widget ul li {
+footer .main-footer .main-inner-footer .widget.widget_contact_footer_widget ul li,
+footer .main-footer .main-inner-footer .widget.widget_contact_footer_widget ul li a {
     font-size: 14px;
     line-height: 20px;
     color: #94969C;
@@ -1354,7 +1346,6 @@ footer .footer-bottom .socials-wrapper ul li.youtube a {
 
 /* 📱 Responsive */
 @media (max-width: 992px) {
-
     section.banner-home {
         padding: 80px 0 60px;
         text-align: center;
