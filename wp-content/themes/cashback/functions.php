@@ -36,8 +36,9 @@ if (!function_exists('cashback_menu')) {
     {
         $menu = array(
             'theme_location'    => $menu,
-            'container'     => 'nav',
+            'container'     => '',
             'container_class'   => $menu,
+            'menu_class'    => 'nav-bar-menu',
         );
         wp_nav_menu($menu);
     }
