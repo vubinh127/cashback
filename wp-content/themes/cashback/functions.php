@@ -131,3 +131,82 @@ function create_broker_taxonomy() {
         )
     );
 }
+
+function template_include_broker($terms = null) {
+
+    if(isset($terms)){
+        $query = new WP_Query([
+            'post_type' => 'broker',
+            'posts_per_page' => -1,
+            'tax_query' => [
+                [
+                    'taxonomy' => 'broker_type',
+                    'field'    => 'slug',
+                    'terms'    => $terms
+                ]
+            ]
+        ]);
+    }else{
+        $query = new WP_Query([
+            'post_type' => 'broker',
+            'posts_per_page' => -1,
+        ]);
+    }
+
+    if ($query->have_posts()):
+        while ($query->have_posts()): $query->the_post();
+            $logo = get_field('logo');
+            $type = get_field('loai');
+            $code = get_field('ma_gioi_thieu');
+            $example = get_field('vi_du');
+            $rebate = get_field('hoan_phi');
+            ?>
+            <div class="exchanges">
+                <a href="<?php the_permalink(); ?>">
+                    <div class="logo">
+                        <img src="<?php echo get_the_post_thumbnail_url() ? get_the_post_thumbnail_url() : '' ?>">
+                    </div>
+                </a>
+
+                <div class="content">
+                    <div class="title"><?php the_title(); ?></div>
+
+                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
+                        <div class="name">Type:</div>
+                        <div class="value"><?php echo $type ?: '—'; ?></div>
+                    </div>
+
+                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
+                        <div class="name">Ref code:</div>
+                        <div class="value d-flex align-items-center gap-2">
+                            <?php echo $code ?: '—'; ?>
+                            <div class="copy-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M13.3334 10.7503V14.2503C13.3334 17.167 12.1667 18.3337 9.25002 18.3337H5.75002C2.83335 18.3337 1.66669 17.167 1.66669 14.2503V10.7503C1.66669 7.83366 2.83335 6.66699 5.75002 6.66699H9.25002C12.1667 6.66699 13.3334 7.83366 13.3334 10.7503Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M18.3334 5.75033V9.25033C18.3334 12.167 17.1667 13.3337 14.25 13.3337H13.3334V10.7503C13.3334 7.83366 12.1667 6.66699 9.25002 6.66699H6.66669V5.75033C6.66669 2.83366 7.83335 1.66699 10.75 1.66699H14.25C17.1667 1.66699 18.3334 2.83366 18.3334 5.75033Z" stroke="#101828" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+
+                                <span class="tooltip-copy">Đã sao chép liên kết</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-100 d-flex justify-content-between gap-4 mb-2">
+                        <div class="name">Example</div>
+                        <div class="value"><?php echo $example ?: '—'; ?></div>
+                    </div>
+
+                    <div class="d-flex justify-content-between gap-4 backcom">
+                        <div class="name">Commission up to</div>
+                        <div class="value"><?php echo $rebate ?: '—'; ?>%</div>
+                    </div>
+                </div>
+            </div>
+        <?php
+        endwhile;
+        wp_reset_postdata();
+    else:
+        echo '<p>No crypto exchanges found.</p>';
+    endif;
+
+}

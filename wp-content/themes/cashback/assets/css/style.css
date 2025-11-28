@@ -197,6 +197,10 @@ header .menu-custom.menu-pc .sub-menu {
     border: 1px solid #F3F4F6;
 }
 
+header .menu-custom.menu-pc .sub-menu li {
+    padding: 0;
+}
+
 header .menu-item.menu-item-has-children {
     position: relative;
 }
