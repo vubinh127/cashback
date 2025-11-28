@@ -21,7 +21,7 @@ get_header();
                         <iframe src="https://www.youtube.com/embed/K3RgioijylQ?enablejsapi=1&amp;version=3&amp;playerapiid=ytplayer" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
                     </div>
                     <div class="banner-image">
-                        <img width="2560" height="1440" src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/78e76deab2c806965fd9.jpg" class="attachment-full size-full" alt="" decoding="async" fetchpriority="high" srcset="https://backcom.com/wp-content/uploads/2025/06/78e76deab2c806965fd9.jpg 2560w, https://backcom.com/wp-content/uploads/2025/06/78e76deab2c806965fd9-300x169.jpg 300w, https://backcom.com/wp-content/uploads/2025/06/78e76deab2c806965fd9-1024x576.jpg 1024w, https://backcom.com/wp-content/uploads/2025/06/78e76deab2c806965fd9-768x432.jpg 768w, https://backcom.com/wp-content/uploads/2025/06/78e76deab2c806965fd9-1536x864.jpg 1536w, https://backcom.com/wp-content/uploads/2025/06/78e76deab2c806965fd9-2048x1152.jpg 2048w" sizes="(max-width: 2560px) 100vw, 2560px">
+                        <img width="2560" height="1440" src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/78e76deab2c806965fd9-1536x864.jpg" class="attachment-full size-full" alt="" decoding="async" fetchpriority="high" srcset="<?php echo get_stylesheet_directory_uri() ?>/assets/img/78e76deab2c806965fd9-1536x864.jpg" sizes="(max-width: 2560px) 100vw, 2560px">
                     </div>
                 </div>
             </div>
