@@ -86,3 +86,48 @@ function loadStyle(){
     
 }
 add_action('wp_enqueue_scripts', 'loadStyle');
+
+add_action('init', 'create_broker_post_type');
+function create_broker_post_type() {
+
+    $labels = array(
+        'name'               => 'Sàn giao dịch',
+        'singular_name'      => 'Sàn',
+        'menu_name'          => 'Sàn giao dịch',
+        'name_admin_bar'     => 'Sàn',
+        'add_new'            => 'Thêm sàn mới',
+        'add_new_item'       => 'Thêm sàn mới',
+        'edit_item'          => 'Sửa sàn',
+        'new_item'           => 'Sàn mới',
+        'view_item'          => 'Xem sàn',
+        'search_items'       => 'Tìm kiếm sàn',
+        'not_found'          => 'Không tìm thấy sàn nào',
+        'not_found_in_trash' => 'Không có sàn nào trong thùng rác',
+    );
+
+    $args = array(
+        'labels'             => $labels,
+        'public'             => true,
+        'has_archive'        => true,
+        'rewrite'            => array('slug' => 'san-giao-dich'),
+        'menu_icon'          => 'dashicons-chart-line',
+        'supports'           => array('title', 'editor', 'thumbnail'),
+        'show_in_rest'       => true, // hỗ trợ Gutenberg + API
+    );
+
+    register_post_type('broker', $args);
+}
+
+add_action('init', 'create_broker_taxonomy');
+function create_broker_taxonomy() {
+    register_taxonomy(
+        'broker_type',
+        'broker',
+        array(
+            'label'        => 'Loại sàn',
+            'rewrite'      => array('slug' => 'loai-san'),
+            'hierarchical' => true,
+            'show_in_rest' => true,
+        )
+    );
+}
