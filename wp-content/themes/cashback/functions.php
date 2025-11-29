@@ -74,15 +74,15 @@ function pagination_baongoc($query)
 
 function loadStyle(){
 
-    wp_enqueue_style('bootsraps-css', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css');
-    wp_enqueue_style('swiper-bundle-css', 'https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css');
-    wp_enqueue_style('style-css', get_stylesheet_directory_uri().'/assets/css/style.css');
+    wp_enqueue_style('bootsraps-css', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css', [], time());
+    wp_enqueue_style('swiper-bundle-css', 'https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css', [], time());
+    wp_enqueue_style('style-css', get_stylesheet_directory_uri().'/assets/css/style.css', [], time());
 
-    wp_enqueue_script('jquery-js', 'https://code.jquery.com/jquery-3.6.0.min.js');
-    wp_enqueue_script('popper-js', 'https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js');
-    wp_enqueue_script('bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js');
-    wp_enqueue_script('swiper-bundle-js', 'https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js');
-    wp_enqueue_script('index-js', get_stylesheet_directory_uri().'/assets/js/index.js');
+    wp_enqueue_script('jquery-js', 'https://code.jquery.com/jquery-3.6.0.min.js', [], time());
+    wp_enqueue_script('popper-js', 'https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js', [], time());
+    wp_enqueue_script('bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js', [], time());
+    wp_enqueue_script('swiper-bundle-js', 'https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js', [], time());
+    wp_enqueue_script('index-js', get_stylesheet_directory_uri().'/assets/js/index.js', [], time());
     
 }
 add_action('wp_enqueue_scripts', 'loadStyle');
